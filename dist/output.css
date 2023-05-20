@@ -842,6 +842,10 @@ video {
   height: 100%;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -904,6 +908,22 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[240px\] {
+  width: 240px;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-\[4000px\] {
+  width: 4000px;
+}
+
+.w-\[9000px\] {
+  width: 9000px;
 }
 
 .flex-1 {
@@ -1472,7 +1492,7 @@ video {
 @font-face {
   font-family: "FreestyleScript";
 
-  src: url('FREESCPT.ttf') format('ttf');
+  src: url('/src/assests/fonts/FREESCPT.ttf') format('ttf');
 }
 
 body{
