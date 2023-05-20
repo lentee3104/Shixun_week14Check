@@ -53,7 +53,7 @@
             </div>
 
             <!--标题中间部分-->
-            <div class="ml-48 text-balck mt-8 flex font-blod items-center">
+            <div class="ml-48 text-balck mt-6 flex font-blod items-center">
                 <div class="text-3xl mr-16">找货源</div>
                 <div class="text-2xl mr-16">找工厂</div>
                 <div class="text-2xl mr-16">找工业品</div>
@@ -130,22 +130,23 @@
             <!--中间的广告和快捷选项-->
             <div class="w-[49%] flex bg-white box-border rounded shadow">
                 <!--创建轮播容器和包含所有轮播图片的div-->
-                <div class="w-full my-0 mx-auto carousel">
+                <div class="w-full my-0 mx-auto carousel relative">
                     <!--用flexbox类将轮播图水平排列-->
-                    <div class="overflow-hidden flex w-full carousel-images">
-                        <img src="/src/assests/images/lunbotu1.png" alt="Image 1" class="flex-grow-0 w-full">
-                        <img src="/src/assests/images/lunbotu2.jpg" alt="Image 2" class="flex-grow-0 w-full hiddent" >
-                        <img src="/src/assests/images/lunbotu3.png" alt="Image 3" class="flex-grow-0 w-full hiddent" >
-                        <img src="/src/assests/images/lunbotu4.png" alt="Image 4" class="flex-grow-0 w-full hiddent" >
+                    <div class="overflow-hidden flex w-full carousel-images relative rounded">
+                        <img src="/src/assests/images/lunbotu1.png" alt="Image 1" class="flex-grow-0 w-full h-full inset-0 ">
+                        <img src="/src/assests/images/lunbotu2.jpg" alt="Image 2" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+                        <img src="/src/assests/images/lunbotu3.png" alt="Image 3" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+                        <img src="/src/assests/images/lunbotu4.png" alt="Image 4" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+
+                        <!--添加小圆点-->
+                        <div class="carousel-dots flex justify-center  bottom-0 right-0 mb-4 mr-4 absolute">
+                            <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot active" onclick="changeImage(0)"></button>
+                            <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(1)"></button>
+                            <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(2)"></button>
+                            <button class="w-2 h-2 rounded-full bg-orange-500 dot" onclick="changeImage(3)"></button>
+                        </div>
                     </div>
 
-                    <!--添加小圆点-->
-                    <div class="carousel-dots flex justify-center  mt-2 ">
-                        <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot active" onclick="changeImage(0)"></button>
-                        <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(1)"></button>
-                        <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(2)"></button>
-                        <button class="w-2 h-2 rounded-full bg-orange-500 dot" onclick="changeImage(3)"></button>
-                    </div>
                 </div>
             </div>
 
