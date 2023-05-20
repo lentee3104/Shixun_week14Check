@@ -11,8 +11,9 @@
     <script src="index.js"></script>
 </head>
 <body>
-
-    <div class="w-full h-full bg-gray-100">
+    <!--整个页面的左半边-->
+<div class="w-full h-full">
+    <div class="w-[96%] h-full bg-gray-100">
         <header class="w-full h-8 bg-white flex justify-between items-center box-border border-solid border-b-gray-200 border-b">
             <div class="ml-28 text-gray-600 font text-xs flex">
                 <!--<svg>这里应该有小手机的图标</svg>-->
@@ -46,7 +47,7 @@
             <!--标题左半边-->
             <div class="ml-28 flex items-center">
                 <div class="text-5xl text-[#FF4000] font-extrabold">1688</div>
-                <div class="text-[18px] text-gray-400 leading-tight ml-2 font-extrabold">
+                <div class="text-lg text-gray-400 leading-tight ml-2 font-extrabold">
                     <p class="">找工厂</p>
                     <p class="">就上1688</p>
                 </div>
@@ -75,52 +76,52 @@
         </div>
 
         <!--搜索框下面的三部分-->
-        <div class="flex mx-28 ">
+        <div class="flex ml-28">
             <!--左侧品类市场-->
             <ul class="w-[18%] h-96 p-2 bg-white box-border rounded shadow grid grid-cols-1 gap-3">
                 <li class=" ">
                     <p class="text-base ml-4">品类市场</p>
                 </li>
-                <li class="text-[14px]  flex items-center">
+                <li class="text-[1vw]  flex items-center">
                     <div class="ml-4">女装</div>
                     <div class="ml-2">男装</div>
                     <div class="ml-2">内衣</div>
                 </li>
-                <li class="text-[14px]  flex items-center">
+                <li class="text-[1vw]  flex items-center">
                     <div class="ml-4">配饰</div>
                     <div class="ml-2">鞋靴</div>
                     <div class="ml-2">箱包</div>
                 </li>
-                <li class="text-[14px]  flex items-center">
+                <li class="text-[1vw]  flex items-center">
                     <div class="ml-4">运动服饰</div>
                     <div class="ml-2">运动装备</div>
                 </li>
-                <li class="text-[14px]  flex items-center">
+                <li class="text-[1vw]  flex items-center">
                     <div class="ml-4">童装</div>
                     <div class="ml-2">母婴</div>
                     <div class="ml-2">玩具</div>
                 </li>
-                <li class="text-[14px]  flex items-center">
+                <li class="text-[1vw]  flex items-center">
                     <div class="ml-4">家居百货</div>
                     <div class="ml-2">家纺家饰</div>
                 </li>
-                <li class="text-[14px]  flex items-center">
+                <li class="text-[1vw]  flex items-center">
                     <div class="ml-4">家装建材</div>
                     <div class="ml-2">灯饰照明</div>
                 </li>
-                <li class="text-[14px]  flex items-center">
+                <li class="text-[1vw]  flex items-center">
                     <div class="ml-4">办公文教</div>
                     <div class="ml-2">宠物园艺</div>
                 </li>
-                <li class="text-[14px]  flex items-center">
+                <li class="text-[1vw]  flex items-center">
                     <div class="ml-4">食品酒水</div>
                     <div class="ml-2">餐饮生鲜</div>
                 </li>
-                <li class="text-[14px]  flex items-center">
+                <li class="text-[1vw]  flex items-center">
                     <div class="ml-4">美容化妆</div>
                     <div class="ml-2">个护家清</div>
                 </li>
-                <li class="text-[14px]  flex items-center">
+                <li class="text-[1vw]  flex items-center">
                     <div class="ml-4">数码</div>
                     <div class="ml-2">家电</div>
                     <div class="ml-2">汽车用品</div>
@@ -128,7 +129,7 @@
             </ul>
 
             <!--中间的广告和快捷选项-->
-            <div class="w-[49%] h-96 flex-col bg-gray-100 rounded ml-4">
+            <div class="w-[45%] h-96 flex-col bg-gray-100 rounded ml-4">
                 <!--创建轮播容器和包含所有轮播图片的div-->
                 <div class="w-full my-0 mx-auto carousel relative">
                     <!--用flexbox类将轮播图水平排列-->
@@ -137,13 +138,17 @@
                         <img src="/src/assests/images/lunbotu2.jpg" alt="Image 2" class="flex-grow-0 w-full h-full inset-0 hiddent" >
                         <img src="/src/assests/images/lunbotu3.png" alt="Image 3" class="flex-grow-0 w-full h-full inset-0 hiddent" >
                         <img src="/src/assests/images/lunbotu4.png" alt="Image 4" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+                        <img src="/src/assests/images/lunbotu5.avif" alt="Image 5" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+                        <img src="/src/assests/images/lunbotu6.png" alt="Image 6" class="flex-grow-0 w-full h-full inset-0 hiddent" >
 
                         <!--添加小圆点-->
                         <div class="carousel-dots flex justify-center  bottom-0 right-0 mb-4 mr-4 absolute">
                             <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot active" onclick="changeImage(0)"></button>
                             <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(1)"></button>
                             <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(2)"></button>
-                            <button class="w-2 h-2 rounded-full bg-orange-500 dot" onclick="changeImage(3)"></button>
+                            <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(3)"></button>
+                            <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(4)"></button>
+                            <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(5)"></button>
                         </div>
                     </div>
                 </div>
@@ -151,7 +156,7 @@
                 <!--轮播图广告下面的一小部分-->
                 <div class="w-full h-28 mt-4 bg-white box-border rounded shadow">
 
-                    <div class="flex  box-border px-2 pt-4 pb-3">
+                    <div class="flex  box-border px-4 pt-4 pb-3">
                         <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
                             <img src="assests/images/逛商场.webp" height="48" width="48"/>
                             <p class="text-sm mt-2">逛市场</p>
@@ -190,13 +195,80 @@
                 </div>
             </div>
 
+            <!--中间部分右半部分-->
+            <div class="w-[29%] ml-4 flex bg-white box-border flex-col rounded-b">
+                <!--登录和注册部分-->
+                <div class="w-full h-[9.5vw] flex-col bg-[#F0E5DA]">
+                    <!--头像和欢迎词-->
+                    <div class="flex">
+                        <img class="w-14 h-14 rounded-full mt-5 ml-5" src="assests/images/注册登陆部分的小牛头像.avif" />
+                        <div class="ml-4">
+                            <p class="text-sm mt-5  font-normal text-gray-900" >下午好，欢迎来到1688</p>
+                            <button class=" mr-14 mt-2 px-2 py-0.5 box-border text-xs text-[#FF4000] bg-[#FFEBE7] rounded-full ">填写我的采购需求</button>
+                        </div>
+                    </div>
+                    <!--一键登录和免费注册按钮-->
+                    <div class="flex flex-row justify-center mt-3 ">
+                        <button class="px-14 py-1.5 text-sm text-white bg-[#FF4000] rounded mr-2">一键登录</button>
+                        <button class="px-14 py-1.5 text-sm text-[#FF4000] bg-white rounded box-border border-[#FF4000] border">免费注册</button>
+                    </div>
+                </div>
 
-            <div class="w-[29%] ml-4 p-2 flex bg-white box-border rounded shadow">
-                <div class="text-lg h-10">
-                    <p class="ml-4">品类市场</p>
+                <!--一键登录享更多权益-->
+                <div class="w-full">
+                    <img src="assests/images/一键登录享更多权益.avif"/>
+                </div>
+
+                <!--账号详细信息-->
+                <div class="w-full h-[5.25vw] p-1 box-border border-solid border-b-gray-100 border-b flex flex-row justify-center items-center">
+                    <div class="w-1/4 pt-1 flex flex-col justify-center items-center">
+                        <p class="text-xl text-black font-normal">0</p>
+                        <p class="text-sm text-gray-500 ">待付款</p>
+                    </div>
+
+                    <div class="w-1/4 pt-1 flex flex-col justify-center items-center">
+                        <p class="text-xl text-black font-normal">0</p>
+                        <p class="text-sm text-gray-500 ">待付款</p>
+                    </div>
+
+                    <div class="w-1/4 pt-1 flex flex-col justify-center items-center">
+                        <p class="text-xl text-black font-normal">0</p>
+                        <p class="text-sm text-gray-500 ">待付款</p>
+                    </div>
+
+                    <div class="w-1/4 pt-1 flex flex-col justify-center items-center">
+                        <p class="text-xl text-black font-normal">0</p>
+                        <p class="text-sm text-gray-500 ">待付款</p>
+                    </div>
+                </div>
+
+                <!--最后一小部分-->
+                <div class="flex flex-col w-full ">
+                    <div class="w-full h-11 flex ml-5 items-center">
+                        <div class="flex mb-0 font-normal">
+                            <div class=" text-sm text-[#FF4000] ">平台公告</div>
+                            <div class="ml-6 text-sm text-gray-500 ">最新规则</div>
+                            <div class="ml-6 text-sm text-gray-500 ">商人社区</div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row w-full">
+                        <div class="w-full flex justify-start items-center ml-5">
+                            <div class="text-xs text-black">阶梯价档数变更意见征集</div>
+                            <div class="ml-8 text-xs text-balck">1688行业类目调整通知</div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
+
+    <!--整个页面的右边部分-->
+    <div class="w-[4%] h-full">
+
+    </div>
+</div>
+
 </body>
 </html>
