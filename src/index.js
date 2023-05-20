@@ -11,3 +11,4 @@ function changeImage(index) {
     });
     dots[index].classList.add('active');
 }
+
