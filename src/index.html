@@ -75,52 +75,52 @@
         </div>
 
         <!--搜索框下面的三部分-->
-        <div class="flex mx-24 justify-around divide-y divide-gray-200 ">
+        <div class="flex mx-28 ">
             <!--左侧品类市场-->
-            <ul class="w-[18%] p-2 bg-white box-border rounded shadow ">
-                <li class=" h-8">
+            <ul class="w-[18%] h-96 p-2 bg-white box-border rounded shadow grid grid-cols-1 gap-3">
+                <li class=" ">
                     <p class="text-base ml-4">品类市场</p>
                 </li>
-                <li class="text-[14px] h-8 flex items-center">
+                <li class="text-[14px]  flex items-center">
                     <div class="ml-4">女装</div>
                     <div class="ml-2">男装</div>
                     <div class="ml-2">内衣</div>
                 </li>
-                <li class="text-[14px] h-8 flex items-center">
+                <li class="text-[14px]  flex items-center">
                     <div class="ml-4">配饰</div>
                     <div class="ml-2">鞋靴</div>
                     <div class="ml-2">箱包</div>
                 </li>
-                <li class="text-[14px] h-8 flex items-center">
+                <li class="text-[14px]  flex items-center">
                     <div class="ml-4">运动服饰</div>
                     <div class="ml-2">运动装备</div>
                 </li>
-                <li class="text-[14px] h-8 flex items-center">
+                <li class="text-[14px]  flex items-center">
                     <div class="ml-4">童装</div>
                     <div class="ml-2">母婴</div>
                     <div class="ml-2">玩具</div>
                 </li>
-                <li class="text-[14px] h-8 flex items-center">
+                <li class="text-[14px]  flex items-center">
                     <div class="ml-4">家居百货</div>
                     <div class="ml-2">家纺家饰</div>
                 </li>
-                <li class="text-[14px] h-8 flex items-center">
+                <li class="text-[14px]  flex items-center">
                     <div class="ml-4">家装建材</div>
                     <div class="ml-2">灯饰照明</div>
                 </li>
-                <li class="text-[14px] h-8 flex items-center">
+                <li class="text-[14px]  flex items-center">
                     <div class="ml-4">办公文教</div>
                     <div class="ml-2">宠物园艺</div>
                 </li>
-                <li class="text-[14px] h-8 flex items-center">
+                <li class="text-[14px]  flex items-center">
                     <div class="ml-4">食品酒水</div>
                     <div class="ml-2">餐饮生鲜</div>
                 </li>
-                <li class="text-[14px] h-8 flex items-center">
+                <li class="text-[14px]  flex items-center">
                     <div class="ml-4">美容化妆</div>
                     <div class="ml-2">个护家清</div>
                 </li>
-                <li class="text-[14px] h-8 flex items-center">
+                <li class="text-[14px]  flex items-center">
                     <div class="ml-4">数码</div>
                     <div class="ml-2">家电</div>
                     <div class="ml-2">汽车用品</div>
@@ -128,11 +128,11 @@
             </ul>
 
             <!--中间的广告和快捷选项-->
-            <div class="w-[49%] flex bg-white box-border rounded shadow">
+            <div class="w-[49%] h-96 flex-col bg-gray-100 rounded ml-4">
                 <!--创建轮播容器和包含所有轮播图片的div-->
                 <div class="w-full my-0 mx-auto carousel relative">
                     <!--用flexbox类将轮播图水平排列-->
-                    <div class="overflow-hidden flex w-full carousel-images relative rounded">
+                    <div class="overflow-hidden flex w-full h-64 carousel-images relative rounded">
                         <img src="/src/assests/images/lunbotu1.png" alt="Image 1" class="flex-grow-0 w-full h-full inset-0 ">
                         <img src="/src/assests/images/lunbotu2.jpg" alt="Image 2" class="flex-grow-0 w-full h-full inset-0 hiddent" >
                         <img src="/src/assests/images/lunbotu3.png" alt="Image 3" class="flex-grow-0 w-full h-full inset-0 hiddent" >
@@ -146,12 +146,52 @@
                             <button class="w-2 h-2 rounded-full bg-orange-500 dot" onclick="changeImage(3)"></button>
                         </div>
                     </div>
+                </div>
 
+                <!--轮播图广告下面的一小部分-->
+                <div class="w-full h-28 mt-4 bg-white box-border rounded shadow">
+
+                    <div class="flex  box-border px-2 pt-4 pb-3">
+                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                            <img src="assests/images/逛商场.webp" height="48" width="48"/>
+                            <p class="text-sm mt-2">逛市场</p>
+                        </div>
+
+                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                            <img class="" src="assests/images/商人社区.avif" width="48" height="48"/>
+                            <p class="text-sm mt-2">商人社区</p>
+                        </div>
+
+                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                            <img src="assests/images/找新品.avif" width="48" height="48"/>
+                            <p class="text-sm mt-2">找新品</p>
+                        </div>
+
+                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                            <img src="assests/images/淘宝专供.avif" width="48" height="48"/>
+                            <p class="text-sm mt-2">淘宝专供</p>
+                        </div>
+
+                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                            <img src="assests/images/1688PLUS.gif" height="48" width="48"/>
+                            <p class="text-sm mt-2">淘宝专供</p>
+                        </div>
+
+                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                            <img src="assests/images/天天特卖.webp" width="48" height="48"/>
+                            <p class="text-sm mt-2">天天特卖</p>
+                        </div>
+
+                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                            <img src="assests/images/实力优品.avif" width="48" height="48"/>
+                            <p class="text-sm mt-2">实力优品</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
 
-            <div class="w-[29%] p-2 flex bg-white box-border rounded shadow">
+            <div class="w-[29%] ml-4 p-2 flex bg-white box-border rounded shadow">
                 <div class="text-lg h-10">
                     <p class="ml-4">品类市场</p>
                 </div>
