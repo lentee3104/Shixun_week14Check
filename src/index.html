@@ -7,16 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>阿里巴巴1688</title>
-  <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../dist/output.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"  rel="stylesheet" />
     <script src="index.js"></script>
 </head>
-<body><div class="flex justify-center items-center bg-gray-100">
-    <!--整个页面的左半边-->
-<div class="w-auto h-full flex flex-col ">
-    <div class="w-[9000px] h-full bg-gray-100">
-        <header class="w-full h-8 bg-white flex justify-center items-center box-border border-solid border-b-gray-200 border-b">
-            <div class=" text-gray-600 font text-xs flex items-center">
+<body class="w-full h-full flex bg-gray-100">
+
+<!--整个页面的左半边-->
+<div class="w-full h-full flex flex-col bg-white justify-center left-0">
+    <!--页面的头部-->
+    <header class="w-full h-auto flex flex-col justify-center items-center box-border border-solid border-b-gray-200 border-b">
+        <div class="w-[1385px]">
+            <div class="w-full h-8 text-gray-600 font text-xs flex justify-center items-center ">
                 <svg class="text-[#FF4000]" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M16 1H8C6.34 1 5 2.34 5 4v16c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V4c0-1.66-1.34-3-3-3zm-2 20h-4v-1h4v1zm3.25-3H6.75V4h10.5v14z"/></svg>
                 <div class=" mr-2">手机阿里 </div>
                 <div class="mr-2">欢迎来到阿里巴巴</div>
@@ -49,48 +51,258 @@
                 <svg class="mr-2 font-light" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M8.12 9.29L12 13.17l3.88-3.88a.996.996 0 1 1 1.41 1.41l-4.59 4.59a.996.996 0 0 1-1.41 0L6.7 10.7a.996.996 0 0 1 0-1.41c.39-.38 1.03-.39 1.42 0z"/></svg>
                 <div class="mr-2">网站无障碍</div>
             </div>
-        </header>
+        </div>
+    </header>
+    <header class="w-full h-auto flex flex-col justify-center items-center box-border border-solid border-b-gray-200 border-b">
+        <div class="w-[1385px]">
+            <!--标题部分-->
+            <div class="w-full h-20 bg-white box-border border-solid border-b-gray-200 border-b flex justify-center items-center">
+                <!--标题左半边-->
+                <div class=" flex items-center">
+                    <div class="text-5xl text-[#FF4000] font-extrabold font-['FreestyleScript']">1688</div>
+                    <div class="text-lg text-gray-400 leading-tight ml-2 font-extrabold">
+                        <p class="">找工厂</p>
+                        <p class="">就上1688</p>
+                    </div>
+                </div>
 
-        <!--标题部分-->
-        <div class="w-full h-20 bg-white box-border border-solid border-b-gray-200 border-b flex justify-center items-center">
-            <!--标题左半边-->
-            <div class=" flex items-center">
-                <div class="text-5xl text-[#FF4000] font-extrabold font-['FreestyleScript']">1688</div>
-                <div class="text-lg text-gray-400 leading-tight ml-2 font-extrabold">
-                    <p class="">找工厂</p>
-                    <p class="">就上1688</p>
+                <!--标题中间部分-->
+                <div class="ml-48 text-black mt-6 flex font-blod items-center">
+                    <div class="text-3xl mr-16">找货源</div>
+                    <div class="text-2xl mr-16">找工厂</div>
+                    <div class="text-2xl mr-16">找工业品</div>
+                </div>
+
+                <!--标题右边的二维码-->
+                <div class="flex ml-48">
+                    <img src="assests/images/shoukuanma.jpg" height="50" width="50"/>
                 </div>
             </div>
+        </div>
+    </header>
 
-            <!--标题中间部分-->
-            <div class="ml-48 text-black mt-6 flex font-blod items-center">
-                <div class="text-3xl mr-16">找货源</div>
-                <div class="text-2xl mr-16">找工厂</div>
-                <div class="text-2xl mr-16">找工业品</div>
-            </div>
 
-            <!--标题右边的二维码-->
-            <div class="flex ml-48">
-                <img src="assests/images/shoukuanma.jpg" height="50" width="50"/>
+    <!--搜索框部分-->
+    <div class=" h-24 box-border flex justify-center p-6 bg-gray-100 ">
+
+        <div class="w-[1050px] h-12 bg-white box-border border-solid border-[#FF4000] rounded border-2 flex items-center text-gray-500">
+            <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256"><path fill="currentColor" d="m229.66 218.34l-50.07-50.06a88.11 88.11 0 1 0-11.31 11.31l50.06 50.07a8 8 0 0 0 11.32-11.32ZM40 112a72 72 0 1 1 72 72a72.08 72.08 0 0 1-72-72Z"/></svg>
+            <p class=" ml-4 mr-auto font-light text-sm select-none">搜索 商品/供应商/求购</p>
+            <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M7.598 4.487c.267-1.31 1.433-2.237 2.768-2.237h3.268c1.335 0 2.5.927 2.768 2.237a.656.656 0 0 0 .62.524h.033c1.403.062 2.481.234 3.381.825c.567.372 1.055.85 1.435 1.409c.473.694.681 1.492.781 2.456c.098.943.098 2.124.098 3.62v.085c0 1.496 0 2.678-.098 3.62c-.1.964-.308 1.762-.781 2.457a5.155 5.155 0 0 1-1.435 1.409c-.703.461-1.51.665-2.488.762c-.958.096-2.159.096-3.685.096H9.737c-1.526 0-2.727 0-3.685-.096c-.978-.097-1.785-.3-2.488-.762a5.155 5.155 0 0 1-1.435-1.41c-.473-.694-.681-1.492-.781-2.456c-.098-.942-.098-2.124-.098-3.62v-.085c0-1.496 0-2.677.098-3.62c.1-.964.308-1.762.781-2.456a5.155 5.155 0 0 1 1.435-1.41c.9-.59 1.978-.762 3.381-.823l.017-.001h.016a.656.656 0 0 0 .62-.524Zm2.768-.737c-.64 0-1.177.443-1.298 1.036c-.195.96-1.047 1.716-2.072 1.725c-1.348.06-2.07.225-2.61.579a3.665 3.665 0 0 0-1.017.999c-.276.405-.442.924-.53 1.767c-.088.856-.089 1.96-.089 3.508s0 2.651.09 3.507c.087.843.253 1.362.53 1.768c.268.394.613.734 1.017.998c.417.274.951.439 1.814.525c.874.087 2 .088 3.577.088h4.444c1.576 0 2.702 0 3.577-.088c.863-.086 1.397-.25 1.814-.524c.404-.265.75-.605 1.018-1c.276-.405.442-.924.53-1.767c.088-.856.089-1.96.089-3.507c0-1.548 0-2.652-.09-3.508c-.087-.843-.253-1.362-.53-1.767a3.655 3.655 0 0 0-1.017-1c-.538-.353-1.26-.518-2.61-.578c-1.024-.01-1.876-.764-2.071-1.725a1.314 1.314 0 0 0-1.298-1.036h-3.268Zm1.634 7a2.25 2.25 0 1 0 0 4.5a2.25 2.25 0 0 0 0-4.5ZM8.25 13a3.75 3.75 0 1 1 7.5 0a3.75 3.75 0 0 1-7.5 0Zm9-3a.75.75 0 0 1 .75-.75h1a.75.75 0 0 1 0 1.5h-1a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"/></svg>
+            <button class=" w-32 h-12 mr-0 bg-gradient-to-r from-[#FF7E3E] to-[#FF4000] text-white text-lg font-light">搜 索</button>
+        </div>
+    </div>
+
+    <!--搜索框下面的全部页面-->
+    <div class="w-full h-auto flex flex-col justify-center items-center bg-gray-100">
+        <div class="w-[1385px] h-full flex justify-center  flex-col ">
+            <!--第一块的三部分-->
+            <div class="h-96 flex justify-center">
+                <!--左侧品类市场-->
+                <ul class="w-[220px] h-96 p-2 bg-white text-sm box-border rounded shadow flex flex-col">
+                    <li class="w-full h-9 flex items-center mt-1">
+                        <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M4 15.5q-.425 0-.713-.288T3 14.5V14q0-.425.288-.713T4 13h16q.425 0 .713.288T21 14v.5q0 .425-.288.713T20 15.5H4ZM4 11q-.425 0-.713-.288T3 10v-.5q0-.425.288-.713T4 8.5h16q.425 0 .713.288T21 9.5v.5q0 .425-.288.713T20 11H4Zm0-4.5q-.425 0-.713-.288T3 5.5V5q0-.425.288-.713T4 4h16q.425 0 .713.288T21 5v.5q0 .425-.288.713T20 6.5H4ZM4 20q-.425 0-.713-.288T3 19v-.5q0-.425.288-.713T4 17.5h16q.425 0 .713.288T21 18.5v.5q0 .425-.288.713T20 20H4Z"/></svg>
+                        <p class="text-base ml-2">品类市场</p>
+                    </li>
+                    <li class="text-sm mt-1.5 flex items-center">
+                        <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 14 14"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m10.5 1.5l3 3l-2 2l-1-1v6a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-6l-1 1l-2-2l3-3Z"/></svg>
+                        <div class="ml-2">女装</div>
+                        <div class="ml-2">男装</div>
+                        <div class="ml-2">内衣</div>
+                    </li>
+                    <li class=" mt-3 flex items-center">
+                        <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M29.183 20C31.264 15.054 36.35 10.667 39 8c1.104.667 5 2.604 5 7c0 4-1.455 7.111-3 8l-5.987 4.191a23 23 0 0 0-6.533 7.01L25 40H4v-4c2.429-1.333 9.82-5.867 13-8c7 4 10.5-4 12.183-8ZM43 21v19"/></svg>
+                        <div class="ml-2">配饰</div>
+                        <div class="ml-2">鞋靴</div>
+                        <div class="ml-2">箱包</div>
+                    </li>
+                    <li class=" mt-3 flex items-center">
+                        <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M8.405 1.353a.5.5 0 0 0-.768 0c-1.041 1.25-3.102 2.738-4.288 3.4a.5.5 0 0 0-.251.368L2.15 12h-.664a.5.5 0 0 0 0 1H14.5a.5.5 0 0 0 0-1h-.607l-.948-6.879a.5.5 0 0 0-.252-.368c-1.185-.662-3.246-2.15-4.288-3.4ZM11.275 12c-1.177-1.667-2.016-3.295-2.79-6.267a.5.5 0 0 0-.968.002C6.661 9.071 5.65 10.738 4.718 12H3.16l.896-6.5c1.13-.663 2.84-1.897 3.966-3.078c1.126 1.181 2.837 2.415 3.967 3.079L12.883 12h-1.608Zm-1.211 0h-4.12c.696-1.027 1.41-2.338 2.059-4.342c.59 1.815 1.246 3.108 2.06 4.342Z"/></svg>
+                        <div class="ml-2">运动服饰</div>
+                        <div class="ml-2">运动装备</div>
+                    </li>
+                    <li class=" mt-3 flex items-center">
+                        <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 14 14"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.5 6.5v6a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-6m0 0v-2a1 1 0 0 0-1-1a1 1 0 0 1-1-1V2a1.5 1.5 0 0 0-3 0v.5a1 1 0 0 1-1 1a1 1 0 0 0-1 1v2m-1 0h9m-4 3h3"/></svg>
+                        <div class="ml-2">童装</div>
+                        <div class="ml-2">母婴</div>
+                        <div class="ml-2">玩具</div>
+                    </li>
+                    <li class=" mt-3 flex items-center">
+                        <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M2 19v-6q0-.675.275-1.225T3 10.8V8q0-1.25.875-2.125T6 5h4q.575 0 1.075.213T12 5.8q.425-.375.925-.587T14 5h4q1.25 0 2.125.875T21 8v2.8q.45.425.725.975T22 13v6h-2v-2H4v2H2Zm11-9h6V8q0-.425-.288-.713T18 7h-4q-.425 0-.713.288T13 8v2Zm-8 0h6V8q0-.425-.288-.713T10 7H6q-.425 0-.713.288T5 8v2Zm-1 5h16v-2q0-.425-.288-.713T19 12H5q-.425 0-.713.288T4 13v2Zm16 0H4h16Z"/></svg>
+                        <div class="ml-2">家居百货</div>
+                        <div class="ml-2">家纺家饰</div>
+                    </li>
+                    <li class=" mt-3 flex items-center">
+                        <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M20 11h3v2h-3v-2M1 11h3v2H1v-2M13 1v3h-2V1h2M4.92 3.5l2.13 2.14l-1.42 1.41L3.5 4.93L4.92 3.5m12.03 2.13l2.12-2.13l1.43 1.43l-2.13 2.12l-1.42-1.42M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1h4m-3-3h2v-2.13c1.73-.44 3-2.01 3-3.87a4 4 0 0 0-4-4a4 4 0 0 0-4 4c0 1.86 1.27 3.43 3 3.87V18Z"/></svg>
+                        <div class="ml-2">家装建材</div>
+                        <div class="ml-2">灯饰照明</div>
+                    </li>
+                    <li class=" mt-3 flex items-center">
+                        <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 576 512"><path fill="currentColor" d="m309.6 158.5l23.1-138.7C334.6 8.4 344.5 0 356.1 0c7.5 0 14.5 3.5 19 9.5L392 32h52.1c12.7 0 24.9 5.1 33.9 14.1L496 64h56c13.3 0 24 10.7 24 24v24c0 44.2-35.8 80-80 80h-69.3l-5.1 30.5l-112-64zM416 256.1V480c0 17.7-14.3 32-32 32h-32c-17.7 0-32-14.3-32-32V364.8c-24 12.3-51.2 19.2-80 19.2s-56-6.9-80-19.2V480c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V249.8c-28.8-10.9-51.4-35.3-59.2-66.5L1 167.8c-4.3-17.1 6.1-34.5 23.3-38.8s34.5 6.1 38.8 23.3l3.9 15.5C70.5 182 83.3 192 98 192h205.8L416 256.1zM464 80a16 16 0 1 0-32 0a16 16 0 1 0 32 0z"/></svg>
+                        <div class="ml-2">办公文教</div>
+                        <div class="ml-2">宠物园艺</div>
+                    </li>
+                    <li class=" mt-3 flex items-center">
+                        <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="4"><path d="M24 41.02c2.431 0 3.431 1.31 4.734 1.601c1.303.292 2.397.372 3.517-.121c2.219-.978 3.571-2.142 5.212-3.881C40.505 35.395 42 30.964 42 25.029s-1.6-9.003-4.067-11.009c-2.466-2.006-3.896-2.39-6.878-2.006c-2.982.384-4.606 3.588-7.047 3.588c-2.44 0-5.415-3.159-8.002-3.588c-2.588-.43-4.006 0-6.246 2.006S6 19.15 6 25.03c0 5.878 1.552 10.236 4.593 13.46c1.64 1.739 2.937 3.033 5.155 4.01c1.12.494 2.279.414 3.536.122c1.258-.29 2.258-1.6 4.716-1.6Z" clip-rule="evenodd"/><path stroke-linecap="round" d="M24.009 15.602C24.794 7.868 28.128 4 34.01 4c.54 1.628.68 3.203.418 4.726c-.123.724-.508 1.756-1.153 3.096M14.229 26c-.277 1.346-.277 2.731 0 4.157c.276 1.425.865 2.525 1.767 3.3"/></g></svg>
+                        <div class="ml-2">食品酒水</div>
+                        <div class="ml-2">餐饮生鲜</div>
+                    </li>
+                    <li class=" mt-3 flex items-center">
+                        <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><mask id="ipTLipstick0"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M29 24h12v20H29zM7 24h14v20H7z"/><path fill="#555" d="M10 11.454V24h8V4c-6.5 0-8 5.636-8 7.454Z"/><path d="M7 32h14"/></g></mask><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTLipstick0)"/></svg>
+                        <div class="ml-2">美容化妆</div>
+                        <div class="ml-2">个护家清</div>
+                    </li>
+                    <li class=" mt-3 flex items-center">
+                        <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Zm16-2V7h-4.05l-1.825-2h-4.25L8.05 7H4v12Zm-8-6Z"/></svg>
+                        <div class="ml-2">数码</div>
+                        <div class="ml-2">家电</div>
+                        <div class="ml-2">汽车用品</div>
+                    </li>
+                </ul>
+
+                <!--中间的广告和快捷选项-->
+                <div class="w-[600px] h-96 flex-col bg-gray-100 rounded ml-4">
+                    <!--创建轮播容器和包含所有轮播图片的div-->
+                    <div class="w-full my-0 mx-auto carousel relative">
+                        <!--用flexbox类将轮播图水平排列-->
+                        <div class="overflow-hidden flex w-full h-64 carousel-images relative rounded">
+                            <img src="/src/assests/images/lunbotu1.png" alt="Image 1" class="flex-grow-0 w-full h-full inset-0 ">
+                            <img src="/src/assests/images/lunbotu2.jpg" alt="Image 2" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+                            <img src="/src/assests/images/lunbotu3.png" alt="Image 3" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+                            <img src="/src/assests/images/lunbotu4.png" alt="Image 4" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+                            <img src="/src/assests/images/lunbotu5.avif" alt="Image 5" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+                            <img src="/src/assests/images/lunbotu6.png" alt="Image 6" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+
+                            <!--添加小圆点-->
+                            <div class="carousel-dots flex justify-center  bottom-0 right-0 mb-4 mr-4 absolute">
+                                <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot active" onclick="changeImage(0)"></button>
+                                <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(1)"></button>
+                                <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(2)"></button>
+                                <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(3)"></button>
+                                <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(4)"></button>
+                                <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(5)"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--轮播图广告下面的一小部分-->
+                    <div class="w-full h-28 mt-4 bg-white box-border rounded shadow">
+
+                        <div class="flex  box-border px-4 pt-4 pb-3">
+                            <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                                <img src="assests/images/逛商场.webp" height="48" width="48"/>
+                                <p class="text-sm mt-2">逛市场</p>
+                            </div>
+
+                            <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                                <img class="" src="assests/images/商人社区.avif" width="48" height="48"/>
+                                <p class="text-sm mt-2">商人社区</p>
+                            </div>
+
+                            <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                                <img src="assests/images/找新品.avif" width="48" height="48"/>
+                                <p class="text-sm mt-2">找新品</p>
+                            </div>
+
+                            <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                                <img src="assests/images/淘宝专供.avif" width="48" height="48"/>
+                                <p class="text-sm mt-2">淘宝专供</p>
+                            </div>
+
+                            <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                                <img src="assests/images/1688PLUS.gif" height="48" width="48"/>
+                                <p class="text-sm mt-2">淘宝专供</p>
+                            </div>
+
+                            <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                                <img src="assests/images/天天特卖.webp" width="48" height="48"/>
+                                <p class="text-sm mt-2">天天特卖</p>
+                            </div>
+
+                            <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                                <img src="assests/images/实力优品.avif" width="48" height="48"/>
+                                <p class="text-sm mt-2">实力优品</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--中间部分右半部分-->
+                <div class="w-[347px] h-96 ml-4 flex bg-white box-border flex-col rounded-b shadow">
+                    <!--登录和注册部分-->
+                    <div class="w-full h-[140px] flex-col bg-[#F0E5DA]">
+                        <!--头像和欢迎词-->
+                        <div class="flex">
+                            <img class="w-14 h-14 rounded-full mt-5 ml-5" src="assests/images/注册登陆部分的小牛头像.avif" />
+                            <div class="ml-4">
+                                <p class="text-sm mt-5  font-normal text-gray-900" >下午好，欢迎来到1688</p>
+                                <button class=" mr-14 mt-2 px-2 py-0.5 box-border text-xs text-[#FF4000] bg-[#FFEBE7] rounded-full ">填写我的采购需求</button>
+                            </div>
+                        </div>
+                        <!--一键登录和免费注册按钮-->
+                        <div class="flex flex-row justify-center mt-3 ">
+                            <button class="w-[160px] py-1.5 text-sm text-white bg-[#FF4000] rounded mr-2">一键登录</button>
+                            <button class="w-[160px] py-1.5 text-sm text-[#FF4000] bg-white rounded box-border border-[#FF4000] border">免费注册</button>
+                        </div>
+                    </div>
+
+                    <!--一键登录享更多权益-->
+                    <div class="w-full flex ">
+                        <img class="" src="assests/images/一键登录享更多权益.avif"/>
+                    </div>
+
+                    <!--账号详细信息-->
+                    <div class="w-full h-[75px] p-1 box-border border-solid border-b-gray-100 border-b flex flex-row justify-center items-center">
+                        <div class="w-1/4  flex flex-col justify-center items-center">
+                            <p class="text-xl text-black font-normal">0</p>
+                            <p class="text-sm text-gray-500 ">待付款</p>
+                        </div>
+
+                        <div class="w-1/4  flex flex-col justify-center items-center">
+                            <p class="text-xl text-black font-normal">0</p>
+                            <p class="text-sm text-gray-500 ">待发货</p>
+                        </div>
+
+                        <div class="w-1/4  flex flex-col justify-center items-center">
+                            <p class="text-xl text-black font-normal">0</p>
+                            <p class="text-sm text-gray-500 ">待收货</p>
+                        </div>
+
+                        <div class="w-1/4  flex flex-col justify-center items-center">
+                            <p class="text-xl text-black font-normal">0</p>
+                            <p class="text-sm text-gray-500 ">待卖家同意</p>
+                        </div>
+                    </div>
+
+                    <!--最后一小部分-->
+                    <div class="flex flex-col w-full ">
+                        <div class="w-full h-11 flex ml-5 items-center">
+                            <div class="flex items-end font-normal">
+                                <div class=" text-sm text-[#FF4000] ">平台公告</div>
+                                <div class="ml-6 text-sm text-gray-500 ">最新规则</div>
+                                <div class="ml-6 text-sm text-gray-500 ">商人社区</div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-row w-full">
+                            <div class="w-full flex  items-center ml-5">
+                                <div class="text-xs text-black">阶梯价档数变更意见征集</div>
+                                <div class="ml-8 text-xs text-black">1688行业类目调整通知</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <!--搜索框部分-->
-        <div class=" h-24 box-border flex justify-center p-6 bg-gray-100 ">
-
-            <div class="w-[1050px] h-12 bg-white box-border border-solid border-[#FF4000] rounded border-2 flex items-center text-gray-500">
-                <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256"><path fill="currentColor" d="m229.66 218.34l-50.07-50.06a88.11 88.11 0 1 0-11.31 11.31l50.06 50.07a8 8 0 0 0 11.32-11.32ZM40 112a72 72 0 1 1 72 72a72.08 72.08 0 0 1-72-72Z"/></svg>
-                <p class=" ml-4 mr-auto font-light text-sm select-none">搜索 商品/供应商/求购</p>
-                <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M7.598 4.487c.267-1.31 1.433-2.237 2.768-2.237h3.268c1.335 0 2.5.927 2.768 2.237a.656.656 0 0 0 .62.524h.033c1.403.062 2.481.234 3.381.825c.567.372 1.055.85 1.435 1.409c.473.694.681 1.492.781 2.456c.098.943.098 2.124.098 3.62v.085c0 1.496 0 2.678-.098 3.62c-.1.964-.308 1.762-.781 2.457a5.155 5.155 0 0 1-1.435 1.409c-.703.461-1.51.665-2.488.762c-.958.096-2.159.096-3.685.096H9.737c-1.526 0-2.727 0-3.685-.096c-.978-.097-1.785-.3-2.488-.762a5.155 5.155 0 0 1-1.435-1.41c-.473-.694-.681-1.492-.781-2.456c-.098-.942-.098-2.124-.098-3.62v-.085c0-1.496 0-2.677.098-3.62c.1-.964.308-1.762.781-2.456a5.155 5.155 0 0 1 1.435-1.41c.9-.59 1.978-.762 3.381-.823l.017-.001h.016a.656.656 0 0 0 .62-.524Zm2.768-.737c-.64 0-1.177.443-1.298 1.036c-.195.96-1.047 1.716-2.072 1.725c-1.348.06-2.07.225-2.61.579a3.665 3.665 0 0 0-1.017.999c-.276.405-.442.924-.53 1.767c-.088.856-.089 1.96-.089 3.508s0 2.651.09 3.507c.087.843.253 1.362.53 1.768c.268.394.613.734 1.017.998c.417.274.951.439 1.814.525c.874.087 2 .088 3.577.088h4.444c1.576 0 2.702 0 3.577-.088c.863-.086 1.397-.25 1.814-.524c.404-.265.75-.605 1.018-1c.276-.405.442-.924.53-1.767c.088-.856.089-1.96.089-3.507c0-1.548 0-2.652-.09-3.508c-.087-.843-.253-1.362-.53-1.767a3.655 3.655 0 0 0-1.017-1c-.538-.353-1.26-.518-2.61-.578c-1.024-.01-1.876-.764-2.071-1.725a1.314 1.314 0 0 0-1.298-1.036h-3.268Zm1.634 7a2.25 2.25 0 1 0 0 4.5a2.25 2.25 0 0 0 0-4.5ZM8.25 13a3.75 3.75 0 1 1 7.5 0a3.75 3.75 0 0 1-7.5 0Zm9-3a.75.75 0 0 1 .75-.75h1a.75.75 0 0 1 0 1.5h-1a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"/></svg>
-                <button class=" w-32 h-12 mr-0 bg-gradient-to-r from-[#FF7E3E] to-[#FF4000] text-white text-lg font-light">搜 索</button>
-            </div>
-        </div>
+    </div>
 
 
-        <!--搜索框下面的三部分-->
-        <div class="flex justify-center">
-            <!--左侧品类市场-->
-            <ul class="w-[220px] h-96 p-2 bg-white text-sm box-border rounded shadow flex flex-col">
+    <!--第一块的三部分-->
+    <div class="flex bg-gray-100 justify-center">
+
+        <!--左侧品类市场-->
+        <div class="w-[220px] ">
+            <ul class="w-full h-96 p-2 bg-white text-sm box-border rounded shadow flex flex-col">
                 <li class="w-full h-9 flex items-center mt-1">
                     <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M4 15.5q-.425 0-.713-.288T3 14.5V14q0-.425.288-.713T4 13h16q.425 0 .713.288T21 14v.5q0 .425-.288.713T20 15.5H4ZM4 11q-.425 0-.713-.288T3 10v-.5q0-.425.288-.713T4 8.5h16q.425 0 .713.288T21 9.5v.5q0 .425-.288.713T20 11H4Zm0-4.5q-.425 0-.713-.288T3 5.5V5q0-.425.288-.713T4 4h16q.425 0 .713.288T21 5v.5q0 .425-.288.713T20 6.5H4ZM4 20q-.425 0-.713-.288T3 19v-.5q0-.425.288-.713T4 17.5h16q.425 0 .713.288T21 18.5v.5q0 .425-.288.713T20 20H4Z"/></svg>
                     <p class="text-base ml-2">品类市场</p>
@@ -150,148 +362,157 @@
                     <div class="ml-2">汽车用品</div>
                 </li>
             </ul>
-
-            <!--中间的广告和快捷选项-->
-            <div class="w-[600px] h-96 flex-col bg-gray-100 rounded ml-4">
-                <!--创建轮播容器和包含所有轮播图片的div-->
-                <div class="w-full my-0 mx-auto carousel relative">
-                    <!--用flexbox类将轮播图水平排列-->
-                    <div class="overflow-hidden flex w-full h-64 carousel-images relative rounded">
-                        <img src="/src/assests/images/lunbotu1.png" alt="Image 1" class="flex-grow-0 w-full h-full inset-0 ">
-                        <img src="/src/assests/images/lunbotu2.jpg" alt="Image 2" class="flex-grow-0 w-full h-full inset-0 hiddent" >
-                        <img src="/src/assests/images/lunbotu3.png" alt="Image 3" class="flex-grow-0 w-full h-full inset-0 hiddent" >
-                        <img src="/src/assests/images/lunbotu4.png" alt="Image 4" class="flex-grow-0 w-full h-full inset-0 hiddent" >
-                        <img src="/src/assests/images/lunbotu5.avif" alt="Image 5" class="flex-grow-0 w-full h-full inset-0 hiddent" >
-                        <img src="/src/assests/images/lunbotu6.png" alt="Image 6" class="flex-grow-0 w-full h-full inset-0 hiddent" >
-
-                        <!--添加小圆点-->
-                        <div class="carousel-dots flex justify-center  bottom-0 right-0 mb-4 mr-4 absolute">
-                            <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot active" onclick="changeImage(0)"></button>
-                            <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(1)"></button>
-                            <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(2)"></button>
-                            <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(3)"></button>
-                            <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(4)"></button>
-                            <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(5)"></button>
-                        </div>
-                    </div>
-                </div>
-
-                <!--轮播图广告下面的一小部分-->
-                <div class="w-full h-28 mt-4 bg-white box-border rounded shadow">
-
-                    <div class="flex  box-border px-4 pt-4 pb-3">
-                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
-                            <img src="assests/images/逛商场.webp" height="48" width="48"/>
-                            <p class="text-sm mt-2">逛市场</p>
-                        </div>
-
-                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
-                            <img class="" src="assests/images/商人社区.avif" width="48" height="48"/>
-                            <p class="text-sm mt-2">商人社区</p>
-                        </div>
-
-                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
-                            <img src="assests/images/找新品.avif" width="48" height="48"/>
-                            <p class="text-sm mt-2">找新品</p>
-                        </div>
-
-                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
-                            <img src="assests/images/淘宝专供.avif" width="48" height="48"/>
-                            <p class="text-sm mt-2">淘宝专供</p>
-                        </div>
-
-                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
-                            <img src="assests/images/1688PLUS.gif" height="48" width="48"/>
-                            <p class="text-sm mt-2">淘宝专供</p>
-                        </div>
-
-                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
-                            <img src="assests/images/天天特卖.webp" width="48" height="48"/>
-                            <p class="text-sm mt-2">天天特卖</p>
-                        </div>
-
-                        <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
-                            <img src="assests/images/实力优品.avif" width="48" height="48"/>
-                            <p class="text-sm mt-2">实力优品</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--中间部分右半部分-->
-            <div class="w-[347px] h-96 ml-4 flex bg-white box-border flex-col rounded-b shadow">
-                <!--登录和注册部分-->
-                <div class="w-full h-[9.5vw] flex-col bg-[#F0E5DA]">
-                    <!--头像和欢迎词-->
-                    <div class="flex">
-                        <img class="w-14 h-14 rounded-full mt-5 ml-5" src="assests/images/注册登陆部分的小牛头像.avif" />
-                        <div class="ml-4">
-                            <p class="text-sm mt-5  font-normal text-gray-900" >下午好，欢迎来到1688</p>
-                            <button class=" mr-14 mt-2 px-2 py-0.5 box-border text-xs text-[#FF4000] bg-[#FFEBE7] rounded-full ">填写我的采购需求</button>
-                        </div>
-                    </div>
-                    <!--一键登录和免费注册按钮-->
-                    <div class="flex flex-row justify-center mt-3 ">
-                        <button class="w-[160px] py-1.5 text-sm text-white bg-[#FF4000] rounded mr-2">一键登录</button>
-                        <button class="w-[160px] py-1.5 text-sm text-[#FF4000] bg-white rounded box-border border-[#FF4000] border">免费注册</button>
-                    </div>
-                </div>
-
-                <!--一键登录享更多权益-->
-                <div class="w-full flex box-border border">
-                    <img class="" src="assests/images/一键登录享更多权益.avif"/>
-                </div>
-
-                <!--账号详细信息-->
-                <div class="w-full h-[5.25vw] p-1 box-border border-solid border-b-gray-100 border-b flex flex-row justify-center items-center">
-                    <div class="w-1/4  flex flex-col justify-center items-center">
-                        <p class="text-xl text-black font-normal">0</p>
-                        <p class="text-sm text-gray-500 ">待付款</p>
-                    </div>
-
-                    <div class="w-1/4  flex flex-col justify-center items-center">
-                        <p class="text-xl text-black font-normal">0</p>
-                        <p class="text-sm text-gray-500 ">待发货</p>
-                    </div>
-
-                    <div class="w-1/4  flex flex-col justify-center items-center">
-                        <p class="text-xl text-black font-normal">0</p>
-                        <p class="text-sm text-gray-500 ">待收货</p>
-                    </div>
-
-                    <div class="w-1/4  flex flex-col justify-center items-center">
-                        <p class="text-xl text-black font-normal">0</p>
-                        <p class="text-sm text-gray-500 ">待卖家同意</p>
-                    </div>
-                </div>
-
-                <!--最后一小部分-->
-                <div class="flex flex-col w-full ">
-                    <div class="w-full h-11 flex ml-5 items-center">
-                        <div class="flex items-end font-normal">
-                            <div class=" text-sm text-[#FF4000] ">平台公告</div>
-                            <div class="ml-6 text-sm text-gray-500 ">最新规则</div>
-                            <div class="ml-6 text-sm text-gray-500 ">商人社区</div>
-                        </div>
-                    </div>
-
-                    <div class="flex flex-row w-full">
-                        <div class="w-full flex  items-center ml-5">
-                            <div class="text-xs text-black">阶梯价档数变更意见征集</div>
-                            <div class="ml-8 text-xs text-black">1688行业类目调整通知</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </div>
 
-    <!--整个页面的右边部分-->
-    <div class="w-[4%] h-full">
+        <!--中间的广告和快捷选项-->
+        <div class="w-[600px] h-96 flex-col bg-gray-100 rounded ml-4">
+            <!--创建轮播容器和包含所有轮播图片的div-->
+            <div class="w-full my-0 mx-auto carousel relative">
+                <!--用flexbox类将轮播图水平排列-->
+                <div class="overflow-hidden flex w-full h-64 carousel-images relative rounded">
+                    <img src="/src/assests/images/lunbotu1.png" alt="Image 1" class="flex-grow-0 w-full h-full inset-0 ">
+                    <img src="/src/assests/images/lunbotu2.jpg" alt="Image 2" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+                    <img src="/src/assests/images/lunbotu3.png" alt="Image 3" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+                    <img src="/src/assests/images/lunbotu4.png" alt="Image 4" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+                    <img src="/src/assests/images/lunbotu5.avif" alt="Image 5" class="flex-grow-0 w-full h-full inset-0 hiddent" >
+                    <img src="/src/assests/images/lunbotu6.png" alt="Image 6" class="flex-grow-0 w-full h-full inset-0 hiddent" >
 
+                    <!--添加小圆点-->
+                    <div class="carousel-dots flex justify-center  bottom-0 right-0 mb-4 mr-4 absolute">
+                        <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot active" onclick="changeImage(0)"></button>
+                        <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(1)"></button>
+                        <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(2)"></button>
+                        <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(3)"></button>
+                        <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(4)"></button>
+                        <button class="w-2 h-2 rounded-full bg-orange-500 mr-1 dot" onclick="changeImage(5)"></button>
+                    </div>
+                </div>
+            </div>
+
+            <!--轮播图广告下面的一小部分-->
+            <div class="w-full h-28 mt-4 bg-white box-border rounded shadow">
+
+                <div class="flex  box-border px-4 pt-4 pb-3">
+                    <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                        <img src="assests/images/逛商场.webp" height="48" width="48"/>
+                        <p class="text-sm mt-2">逛市场</p>
+                    </div>
+
+                    <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                        <img class="" src="assests/images/商人社区.avif" width="48" height="48"/>
+                        <p class="text-sm mt-2">商人社区</p>
+                    </div>
+
+                    <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                        <img src="assests/images/找新品.avif" width="48" height="48"/>
+                        <p class="text-sm mt-2">找新品</p>
+                    </div>
+
+                    <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                        <img src="assests/images/淘宝专供.avif" width="48" height="48"/>
+                        <p class="text-sm mt-2">淘宝专供</p>
+                    </div>
+
+                    <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                        <img src="assests/images/1688PLUS.gif" height="48" width="48"/>
+                        <p class="text-sm mt-2">淘宝专供</p>
+                    </div>
+
+                    <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                        <img src="assests/images/天天特卖.webp" width="48" height="48"/>
+                        <p class="text-sm mt-2">天天特卖</p>
+                    </div>
+
+                    <div class="w-[14.285%] text-gray-600 flex flex-col items-center">
+                        <img src="assests/images/实力优品.avif" width="48" height="48"/>
+                        <p class="text-sm mt-2">实力优品</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--中间部分右半部分-->
+        <div class="w-[347px] h-96 ml-4 flex bg-white box-border flex-col rounded-b shadow">
+            <!--登录和注册部分-->
+            <div class="w-full h-[140px] flex-col bg-[#F0E5DA]">
+                <!--头像和欢迎词-->
+                <div class="flex">
+                    <img class="w-14 h-14 rounded-full mt-5 ml-5" src="assests/images/注册登陆部分的小牛头像.avif" />
+                    <div class="ml-4">
+                        <p class="text-sm mt-5  font-normal text-gray-900" >下午好，欢迎来到1688</p>
+                        <button class=" mr-14 mt-2 px-2 py-0.5 box-border text-xs text-[#FF4000] bg-[#FFEBE7] rounded-full ">填写我的采购需求</button>
+                    </div>
+                </div>
+                <!--一键登录和免费注册按钮-->
+                <div class="flex flex-row justify-center mt-3 ">
+                    <button class="w-[160px] py-1.5 text-sm text-white bg-[#FF4000] rounded mr-2">一键登录</button>
+                    <button class="w-[160px] py-1.5 text-sm text-[#FF4000] bg-white rounded box-border border-[#FF4000] border">免费注册</button>
+                </div>
+            </div>
+
+            <!--一键登录享更多权益-->
+            <div class="w-full flex ">
+                <img class="" src="assests/images/一键登录享更多权益.avif"/>
+            </div>
+
+            <!--账号详细信息-->
+            <div class="w-full h-[75px] p-1 box-border border-solid border-b-gray-100 border-b flex flex-row justify-center items-center">
+                <div class="w-1/4  flex flex-col justify-center items-center">
+                    <p class="text-xl text-black font-normal">0</p>
+                    <p class="text-sm text-gray-500 ">待付款</p>
+                </div>
+
+                <div class="w-1/4  flex flex-col justify-center items-center">
+                    <p class="text-xl text-black font-normal">0</p>
+                    <p class="text-sm text-gray-500 ">待发货</p>
+                </div>
+
+                <div class="w-1/4  flex flex-col justify-center items-center">
+                    <p class="text-xl text-black font-normal">0</p>
+                    <p class="text-sm text-gray-500 ">待收货</p>
+                </div>
+
+                <div class="w-1/4  flex flex-col justify-center items-center">
+                    <p class="text-xl text-black font-normal">0</p>
+                    <p class="text-sm text-gray-500 ">待卖家同意</p>
+                </div>
+            </div>
+
+            <!--最后一小部分-->
+            <div class="flex flex-col w-full ">
+                <div class="w-full h-11 flex ml-5 items-center">
+                    <div class="flex items-end font-normal">
+                        <div class=" text-sm text-[#FF4000] ">平台公告</div>
+                        <div class="ml-6 text-sm text-gray-500 ">最新规则</div>
+                        <div class="ml-6 text-sm text-gray-500 ">商人社区</div>
+                    </div>
+                </div>
+
+                <div class="flex flex-row w-full">
+                    <div class="w-full flex  items-center ml-5">
+                        <div class="text-xs text-black">阶梯价档数变更意见征集</div>
+                        <div class="ml-8 text-xs text-black">1688行业类目调整通知</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-</div></body>
+<!--整个页面的右边部分-->
+<div class="w-[36px] h-full text-gray-600 flex flex-col justify-center items-center bg-gray-200 right-0 top-0 fixed z-50 antialiased">
+    <div class="w-full h-full flex flex-col justify-center items-center ">
+        <div class="w-auto h-auto flex flex-col justify-center items-center gap-y-12">
+            <svg class="" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M5.85 17.1q1.275-.975 2.85-1.538T12 15q1.725 0 3.3.563t2.85 1.537q.875-1.025 1.363-2.325T20 12q0-3.325-2.337-5.663T12 4Q8.675 4 6.337 6.337T4 12q0 1.475.488 2.775T5.85 17.1ZM12 13q-1.475 0-2.488-1.012T8.5 9.5q0-1.475 1.012-2.488T12 6q1.475 0 2.488 1.012T15.5 9.5q0 1.475-1.012 2.488T12 13Zm0 9q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22Z"/></svg>
+            <svg class="" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.588 1.413T20 20H4Zm8-7.175q.125 0 .263-.038t.262-.112L19.6 8.25q.2-.125.3-.313t.1-.412q0-.5-.425-.75T18.7 6.8L12 11L5.3 6.8q-.45-.275-.875-.012T4 7.525q0 .25.1.438t.3.287l7.075 4.425q.125.075.263.113t.262.037Z"/></svg>
+            <svg class="" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 1024 1024"><path fill="currentColor" d="M256 128v698.88l196.032-156.864a96 96 0 0 1 119.936 0L768 826.816V128H256zm-32-64h576a32 32 0 0 1 32 32v797.44a32 32 0 0 1-51.968 24.96L531.968 720a32 32 0 0 0-39.936 0L243.968 918.4A32 32 0 0 1 192 893.44V96a32 32 0 0 1 32-32z"/></svg>
+            <svg class="" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M7.96 7.257c1.397-1.047 3.352-1.511 5.248-1.119c3.763.78 5.725 3.791 5.79 7.54c.054 3.047-1.88 6.8-4.822 8.013c-1.76.726-4.046-.016-4.763-1.873c-.267-.693-.214-1.366-.102-2.044l.08-.452c.058-.313.117-.629.15-.949c.067-.649-.304-1.053-.773-1.388l-.24-.162l-.556-.35l-.266-.183c-.63-.451-1.298-1.093-1.574-2.239c-.485-2.005.41-3.73 1.828-4.794ZM5 3.5a2 2 0 1 1 0 4a2 2 0 0 1 0-4Zm13.5 1a1 1 0 1 1 0 2a1 1 0 0 1 0-2ZM9.5 2a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3Zm5 0a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3Z"/></g></svg>
+            <svg class="" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><g fill="none"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M12 3a7 7 0 0 1 7 7v3.764l1.822 3.644A1.1 1.1 0 0 1 19.838 19H4.162a1.1 1.1 0 0 1-.984-1.592L5 13.764V10a7 7 0 0 1 7-7Zm0 2a5 5 0 0 0-5 5v3.764a2 2 0 0 1-.211.894L5.619 17h12.763l-1.17-2.342a2 2 0 0 1-.212-.894V10a5 5 0 0 0-5-5Zm4.88-2.63a1 1 0 0 1 1.406-.147a10.04 10.04 0 0 1 2.61 3.206a1 1 0 0 1-1.778.915a8.037 8.037 0 0 0-2.09-2.567a1 1 0 0 1-.148-1.406Zm-9.76 0a1 1 0 0 1-.148 1.407a8.038 8.038 0 0 0-2.084 2.555a1 1 0 1 1-1.776-.918a10.038 10.038 0 0 1 2.602-3.191a1 1 0 0 1 1.406.148ZM9 20h6a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2Z"/></g></svg>
+            <svg class="" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" d="M368 415.86V72a24.07 24.07 0 0 0-24-24H72a24.07 24.07 0 0 0-24 24v352a40.12 40.12 0 0 0 40 40h328"/><path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" d="M416 464a48 48 0 0 1-48-48V128h72a24 24 0 0 1 24 24v264a48 48 0 0 1-48 48Z"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M240 128h64m-64 64h64m-192 64h192m-192 64h192m-192 64h192"/><path fill="currentColor" d="M176 208h-64a16 16 0 0 1-16-16v-64a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v64a16 16 0 0 1-16 16Z"/></svg>
+        </div>
+    </div>
+    <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="M5 5q-.425 0-.713-.288T4 4q0-.425.288-.713T5 3h14q.425 0 .713.288T20 4q0 .425-.288.713T19 5H5Zm7 16q-.425 0-.713-.288T11 20v-9.2l-1.925 1.925Q8.8 13 8.4 13t-.7-.3q-.275-.275-.275-.7t.275-.7l3.6-3.6q.15-.15.325-.212T12 7.425q.2 0 .375.063t.325.212l3.625 3.625q.275.275.275.675t-.3.7q-.275.275-.7.275t-.7-.275L13 10.8V20q0 .425-.288.713T12 21Z"/></svg>
+</div>
+
+</body>
 </html>
