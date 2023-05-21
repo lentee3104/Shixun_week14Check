@@ -14,7 +14,7 @@
 <body class="w-full h-full flex bg-gray-100">
 
 <!--整个页面的左半边-->
-<div class="w-full h-full flex flex-col bg-gray-100 justify-center left-0">
+<div class="w-[97.5%] h-full flex flex-col justify-center items-center bg-gray-100 ">
     <!--页面的头部-->
     <header class="w-full h-auto flex flex-col bg-white justify-center items-center box-border border-solid border-b-gray-200 border-b">
         <div class="w-[1385px]">
@@ -81,23 +81,53 @@
         </div>
     </header>
 
-
-    <!--搜索框部分-->
-    <div class=" h-24 box-border flex justify-center p-6 bg-gray-100 ">
-
-        <div class="w-[1050px] h-12 bg-white box-border border-solid border-[#FF4000] rounded border-2 flex items-center text-gray-500">
-            <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256"><path fill="currentColor" d="m229.66 218.34l-50.07-50.06a88.11 88.11 0 1 0-11.31 11.31l50.06 50.07a8 8 0 0 0 11.32-11.32ZM40 112a72 72 0 1 1 72 72a72.08 72.08 0 0 1-72-72Z"/></svg>
-            <p class=" ml-4 mr-auto font-light text-sm select-none">搜索 商品/供应商/求购</p>
-            <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M7.598 4.487c.267-1.31 1.433-2.237 2.768-2.237h3.268c1.335 0 2.5.927 2.768 2.237a.656.656 0 0 0 .62.524h.033c1.403.062 2.481.234 3.381.825c.567.372 1.055.85 1.435 1.409c.473.694.681 1.492.781 2.456c.098.943.098 2.124.098 3.62v.085c0 1.496 0 2.678-.098 3.62c-.1.964-.308 1.762-.781 2.457a5.155 5.155 0 0 1-1.435 1.409c-.703.461-1.51.665-2.488.762c-.958.096-2.159.096-3.685.096H9.737c-1.526 0-2.727 0-3.685-.096c-.978-.097-1.785-.3-2.488-.762a5.155 5.155 0 0 1-1.435-1.41c-.473-.694-.681-1.492-.781-2.456c-.098-.942-.098-2.124-.098-3.62v-.085c0-1.496 0-2.677.098-3.62c.1-.964.308-1.762.781-2.456a5.155 5.155 0 0 1 1.435-1.41c.9-.59 1.978-.762 3.381-.823l.017-.001h.016a.656.656 0 0 0 .62-.524Zm2.768-.737c-.64 0-1.177.443-1.298 1.036c-.195.96-1.047 1.716-2.072 1.725c-1.348.06-2.07.225-2.61.579a3.665 3.665 0 0 0-1.017.999c-.276.405-.442.924-.53 1.767c-.088.856-.089 1.96-.089 3.508s0 2.651.09 3.507c.087.843.253 1.362.53 1.768c.268.394.613.734 1.017.998c.417.274.951.439 1.814.525c.874.087 2 .088 3.577.088h4.444c1.576 0 2.702 0 3.577-.088c.863-.086 1.397-.25 1.814-.524c.404-.265.75-.605 1.018-1c.276-.405.442-.924.53-1.767c.088-.856.089-1.96.089-3.507c0-1.548 0-2.652-.09-3.508c-.087-.843-.253-1.362-.53-1.767a3.655 3.655 0 0 0-1.017-1c-.538-.353-1.26-.518-2.61-.578c-1.024-.01-1.876-.764-2.071-1.725a1.314 1.314 0 0 0-1.298-1.036h-3.268Zm1.634 7a2.25 2.25 0 1 0 0 4.5a2.25 2.25 0 0 0 0-4.5ZM8.25 13a3.75 3.75 0 1 1 7.5 0a3.75 3.75 0 0 1-7.5 0Zm9-3a.75.75 0 0 1 .75-.75h1a.75.75 0 0 1 0 1.5h-1a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"/></svg>
-            <button class=" w-32 h-12 mr-0 bg-gradient-to-r from-[#FF7E3E] to-[#FF4000] text-white text-lg font-light">搜 索</button>
+    <!--标题下面的全部页面-->
+    <div class="w-[1385px] ml-8 h-auto flex flex-col justify-center items-center bg-gray-100 relative ">
+        <!--搜索框部分-->
+        <div class="w-auto h-24 flex justify-center items-center p-6 bg-gray-100 ">
+            <div class="w-[1050px] h-12 bg-white box-border border-solid border-[#FF4000] rounded border-2 flex items-center text-gray-500">
+                <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256"><path fill="currentColor" d="m229.66 218.34l-50.07-50.06a88.11 88.11 0 1 0-11.31 11.31l50.06 50.07a8 8 0 0 0 11.32-11.32ZM40 112a72 72 0 1 1 72 72a72.08 72.08 0 0 1-72-72Z"/></svg>
+                <p class=" ml-4 mr-auto font-light text-sm select-none">搜索 商品/供应商/求购</p>
+                <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M7.598 4.487c.267-1.31 1.433-2.237 2.768-2.237h3.268c1.335 0 2.5.927 2.768 2.237a.656.656 0 0 0 .62.524h.033c1.403.062 2.481.234 3.381.825c.567.372 1.055.85 1.435 1.409c.473.694.681 1.492.781 2.456c.098.943.098 2.124.098 3.62v.085c0 1.496 0 2.678-.098 3.62c-.1.964-.308 1.762-.781 2.457a5.155 5.155 0 0 1-1.435 1.409c-.703.461-1.51.665-2.488.762c-.958.096-2.159.096-3.685.096H9.737c-1.526 0-2.727 0-3.685-.096c-.978-.097-1.785-.3-2.488-.762a5.155 5.155 0 0 1-1.435-1.41c-.473-.694-.681-1.492-.781-2.456c-.098-.942-.098-2.124-.098-3.62v-.085c0-1.496 0-2.677.098-3.62c.1-.964.308-1.762.781-2.456a5.155 5.155 0 0 1 1.435-1.41c.9-.59 1.978-.762 3.381-.823l.017-.001h.016a.656.656 0 0 0 .62-.524Zm2.768-.737c-.64 0-1.177.443-1.298 1.036c-.195.96-1.047 1.716-2.072 1.725c-1.348.06-2.07.225-2.61.579a3.665 3.665 0 0 0-1.017.999c-.276.405-.442.924-.53 1.767c-.088.856-.089 1.96-.089 3.508s0 2.651.09 3.507c.087.843.253 1.362.53 1.768c.268.394.613.734 1.017.998c.417.274.951.439 1.814.525c.874.087 2 .088 3.577.088h4.444c1.576 0 2.702 0 3.577-.088c.863-.086 1.397-.25 1.814-.524c.404-.265.75-.605 1.018-1c.276-.405.442-.924.53-1.767c.088-.856.089-1.96.089-3.507c0-1.548 0-2.652-.09-3.508c-.087-.843-.253-1.362-.53-1.767a3.655 3.655 0 0 0-1.017-1c-.538-.353-1.26-.518-2.61-.578c-1.024-.01-1.876-.764-2.071-1.725a1.314 1.314 0 0 0-1.298-1.036h-3.268Zm1.634 7a2.25 2.25 0 1 0 0 4.5a2.25 2.25 0 0 0 0-4.5ZM8.25 13a3.75 3.75 0 1 1 7.5 0a3.75 3.75 0 0 1-7.5 0Zm9-3a.75.75 0 0 1 .75-.75h1a.75.75 0 0 1 0 1.5h-1a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"/></svg>
+                <button class=" w-[130px] h-12  bg-gradient-to-r from-[#FF7E3E] to-[#FF4000] text-white text-lg font-light">搜 索</button>
+            </div>
         </div>
-    </div>
 
-    <!--搜索框下面的全部页面-->
-    <div class="w-full ml-8 h-auto flex flex-col justify-center items-center bg-gray-100">
-        <div class="w-[1385px] h-full flex flex-col justify-center  ">
+        <div class="w-[1385px] h-full ">
+
+            <!--主体右边的悬停图标-->
+            <div class="w-[69px] h-full top-[413px] fixed z-50 ">
+                <div class="w-full flex flex-col items-center gap-y-1 float-right">
+                    <div class="w-full h-[52px] rounded-md text-gray-600 flex flex-col justify-center items-center box-border  bg-white ">
+                        <svg class="" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 256 256"><path fill="currentColor" d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm0 160H40V56h176v144ZM176 88a48 48 0 0 1-96 0a8 8 0 0 1 16 0a32 32 0 0 0 64 0a8 8 0 0 1 16 0Z"/></svg>
+                        <div class="text-xs text-gray-600">快速补货</div>
+                    </div>
+
+                    <div class="w-full h-[52px] rounded-md text-gray-600 flex flex-col justify-center items-center box-border  bg-white ">
+                        <svg  class="" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="3"><path d="M4 19.313V9h40v10.313a5.5 5.5 0 0 0-3.636 5.187A5.5 5.5 0 0 0 44 29.687V40H4V29.687A5.5 5.5 0 0 0 7.636 24.5A5.5 5.5 0 0 0 4 19.313Z"/><path stroke-linecap="round" d="m19 16l5 5l5-5m-11 6h12m-12 6.167h12M24 22v12"/></g></svg>
+                        <div class="text-xs text-gray-600">卡券中心</div>
+                    </div>
+
+                    <div class="w-full h-[52px] rounded-md text-gray-600 flex flex-col justify-center items-center box-border  bg-white ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 4.002c2.175.012 3.353.109 4.121.877C21 5.758 21 7.172 21 10v6c0 2.829 0 4.243-.879 5.122C19.243 22 17.828 22 15 22H9c-2.828 0-4.243 0-5.121-.878C3 20.242 3 18.829 3 16v-6c0-2.828 0-4.242.879-5.121c.768-.768 1.946-.865 4.121-.877"/><path stroke-linecap="round" d="M7 14.5h8M7 18h5.5"/><path d="M8 3.5A1.5 1.5 0 0 1 9.5 2h5A1.5 1.5 0 0 1 16 3.5v1A1.5 1.5 0 0 1 14.5 6h-5A1.5 1.5 0 0 1 8 4.5v-1Z"/></g></svg>
+                        <div class="text-xs text-gray-600">卡券中心</div>
+                    </div>
+
+                    <div class="w-full h-[52px] rounded-md text-gray-600 flex flex-col justify-center items-center box-border  bg-white ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 256 256"><g fill="none" stroke="currentColor" stroke-width="1.5"><path fill="currentColor" d="M216 42H40a14 14 0 0 0-14 14v128a14 14 0 0 0 14 14h59.47a2 2 0 0 1 1.71 1L116 223.2a14 14 0 0 0 24 .05L154.82 199a2 2 0 0 1 1.71-1H216a14 14 0 0 0 14-14V56a14 14 0 0 0-14-14Zm2 142a2 2 0 0 1-2 2h-59.47a14 14 0 0 0-12 6.75L129.72 217a2 2 0 0 1-3.46 0l-14.8-24.22a14.09 14.09 0 0 0-12-6.77H40a2 2 0 0 1-2-2V56a2 2 0 0 1 2-2h176a2 2 0 0 1 2 2Zm-52-80a6 6 0 0 1-6 6H96a6 6 0 0 1 0-12h64a6 6 0 0 1 6 6Zm0 32a6 6 0 0 1-6 6H96a6 6 0 0 1 0-12h64a6 6 0 0 1 6 6Z"/></g></svg>
+                        <div class="text-xs text-gray-600">反馈</div>
+                    </div>
+
+                    <div class="w-full h-[52px] rounded-md text-gray-600 flex flex-col justify-center items-center box-border  bg-white ">
+                        <svg width="25" height="19" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1.016 1.017)" stroke="currentColor" fill="none" fill-rule="evenodd"><rect stroke-width="1.2" stroke-linecap="round" width="23" height="17" rx="2"/><path d="m20.888 5.917-.314.466a2.644 2.644 0 0 0-1.62-.56.722.722 0 0 0-.56.221.874.874 0 0 0-.243.596c0 .583.463.933 1.067 1.353.812.574 1.742 1.008 1.78 2.063.039 1.055-.794 1.867-2.052 1.927a2.977 2.977 0 0 1-2.07-.858l.319-.542c.486.387 1.07.598 1.67.602.689 0 1.275-.466 1.245-1.12-.025-.574-.748-.905-1.38-1.316-.804-.546-1.429-1.017-1.429-2.025 0-.933.514-1.67 1.7-1.699a2.82 2.82 0 0 1 1.887.892Zm-7.034 6.066c1.734 0 2.457-1.092 2.457-3.047V5.203h-.85v3.36c.007.5-.029 1-.107 1.493-.144.686-.675 1.12-1.5 1.12-.68.066-1.307-.402-1.5-1.12a7.885 7.885 0 0 1-.107-1.493v-3.37h-.85v3.734c0 1.908.668 3.056 2.457 3.056Zm-5.95-.079h3.362v-.812H8.439V4.983h-.85v6.59a.33.33 0 0 0 .084.242.27.27 0 0 0 .222.089h.009Zm-5.054 0v-2.58a7.494 7.494 0 0 0 2.006-.14c.88-.197 1.53-1.022 1.577-2.007-.04-.977-.673-1.803-1.543-2.012a7.703 7.703 0 0 0-1.912-.14H2v6.879h.85Zm1.976-5.857c.423.193.713.629.753 1.13-.033.515-.332.965-.77 1.157a4.62 4.62 0 0 1-1.959.13V5.88a5.689 5.689 0 0 1 1.976.168Z" stroke-width=".2" fill="currentColor" fill-rule="nonzero"/></g></svg>
+                        <div class="text-xs text-gray-600">会员中心</div>
+                    </div>
+
+                </div>
+            </div>
+
             <!--第一块的三部分加上右边悬浮的停靠栏-->
-            <div class="h-96 flex justify-center">
+            <div class="h-96 flex justify-center ">
                 <!--左侧品类市场-->
                 <ul class="w-[220px] h-96 p-2 bg-white text-sm box-border rounded shadow flex flex-col">
                     <li class="w-full h-9 flex items-center mt-1">
@@ -228,26 +258,26 @@
                 </div>
 
                 <!--中间部分右半部分-->
-                <div class="w-[347px] h-96 ml-4 flex bg-white box-border flex-col rounded-b shadow">
+                <div class="w-[348px] h-full ml-4 bg-white box-border rounded-b shadow">
                     <!--登录和注册部分-->
-                    <div class="w-full h-[140px] flex-col bg-[#F0E5DA]">
+                    <div class="w-full h-[132px] p-[18px] flex flex-col bg-[#F0E5DA]">
                         <!--头像和欢迎词-->
                         <div class="flex">
-                            <img class="w-14 h-14 rounded-full mt-5 ml-5" src="assests/images/注册登陆部分的小牛头像.avif" />
+                            <img class="w-14 h-14 rounded-full  ml-5" src="assests/images/注册登陆部分的小牛头像.avif" />
                             <div class="ml-4">
-                                <p class="text-sm mt-5  font-normal text-gray-900" >下午好，欢迎来到1688</p>
-                                <button class=" mr-14 mt-2 px-2 py-0.5 box-border text-xs text-[#FF4000] bg-[#FFEBE7] rounded-full ">填写我的采购需求</button>
+                                <p class="text-sm font-normal text-gray-900" >下午好，欢迎来到1688</p>
+                                <button class=" mr-14 mt-[10px] px-2 py-0.5 box-border text-xs text-[#FF4000] bg-[#FFEBE7] rounded-full ">填写我的采购需求</button>
                             </div>
                         </div>
                         <!--一键登录和免费注册按钮-->
-                        <div class="flex flex-row justify-center mt-3 ">
-                            <button class="w-[160px] py-1.5 text-sm text-white bg-[#FF4000] rounded mr-2">一键登录</button>
-                            <button class="w-[160px] py-1.5 text-sm text-[#FF4000] bg-white rounded box-border border-[#FF4000] border">免费注册</button>
+                        <div class="w-full h-full flex flex-row justify-center mt-3 ">
+                            <button class="w-[152px] h-[32px] text-sm text-white bg-[#FF4000] rounded mr-2">一键登录</button>
+                            <button class="w-[152px] h-[32px] text-sm text-[#FF4000] bg-white rounded box-border border-[#FF4000] border">免费注册</button>
                         </div>
                     </div>
 
                     <!--一键登录享更多权益-->
-                    <div class="w-full flex ">
+                    <div class=" ">
                         <img class="" src="assests/images/一键登录享更多权益.avif"/>
                     </div>
 
@@ -291,35 +321,128 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
 
-                <!--主体右边的悬停图标-->
-                <div class="w-[69px] h-full flex items-center ml-3 ">
-                    <div class="w-full flex flex-col items-center gap-y-1 mt-[260px]">
-                        <div class="w-full h-[52px] rounded-md text-gray-600 flex flex-col justify-center items-center box-border  bg-white ">
-                            <svg class="" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 256 256"><path fill="currentColor" d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm0 160H40V56h176v144ZM176 88a48 48 0 0 1-96 0a8 8 0 0 1 16 0a32 32 0 0 0 64 0a8 8 0 0 1 16 0Z"/></svg>
-                            <div class="text-xs text-gray-600">快速补货</div>
-                        </div>
+            </div>
 
-                        <div class="w-full h-[52px] rounded-md text-gray-600 flex flex-col justify-center items-center box-border  bg-white ">
-                            <svg  class="" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="3"><path d="M4 19.313V9h40v10.313a5.5 5.5 0 0 0-3.636 5.187A5.5 5.5 0 0 0 44 29.687V40H4V29.687A5.5 5.5 0 0 0 7.636 24.5A5.5 5.5 0 0 0 4 19.313Z"/><path stroke-linecap="round" d="m19 16l5 5l5-5m-11 6h12m-12 6.167h12M24 22v12"/></g></svg>
-                            <div class="text-xs text-gray-600">卡券中心</div>
-                        </div>
+            <div class="w-[1385px] h-auto flex flex-col justify-center items-center">
+                <!--爆品伙拼、新品直播-->
+                <div class="w-full h-[312px] flex justify-center items-center mt-4 mb-4 gap-x-4">
+                    <!--爆品伙拼-->
+                    <div class="w-[592px] h-full bg-white rounded shadow">
+                        <div class="w-full px-4 "> <!--这个地方包括了上面的字和下面的三列商品-->
+                            <!--第一行字-->
+                            <div class="w-auto h-[60px] flex items-center gap-x-2 relative">
+                                <div class="text-xl ">爆品伙拼</div>
+                                <div class="text-sm text-[#FF4000] flex justify-center items-center">
+                                    <span class="bg-[#FFE3D9] rounded">03</span>
+                                    <span class="">:</span>
+                                    <span class="bg-[#FFE3D9] rounded">10</span>
+                                    <span class="">:</span>
+                                    <span class="bg-[#FFE3D9] rounded">28</span>
+                                </div>
+                                <span class="ml-2 text-gray-500">全网爆品，出厂价包邮</span>
+                                <span class="absolute right-0 text-gray-500">更多</span>
+                            </div>
+                            <!--下面的三列图-->
+                            <div class="w-full h-[241px] flex justify-around py-2">
+                                <div class="w-auto h-auto flex flex-col justify-center items-center gap-y-2">
+                                    <img class="rounded-sm" src="assests/images/简约皮筋.jpg" height="176"
+                                                                width="176"/>
+                                    <div class="flex relative">
+                                        <svg class="" width="122" height="22" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="50%" x2="106.092%" y2="50%" id="a"><stop stop-color="#FF4000" offset="0%"/><stop stop-color="#FF6C3E" offset="100%"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path d="M4 .5c-.966 0-1.841.392-2.475 1.025A3.489 3.489 0 00.5 4h0v16c0 .414.168.79.44 1.06.27.272.646.44 1.06.44h73.5V.5z" stroke="#FF4000" fill="#FFF"/><path d="M11.534 17.302v-.784h8.932v.784h1.022V11.73h-1.022v3.822h-3.948v-5.138h4.284V5.612h-1.008v3.822h-3.276V4.548h-1.036v4.886h-3.276V5.612h-1.008v4.802h4.284v5.138h-3.948V11.73h-1.022v5.572h1.022zm12.754.098c1.176-1.75 1.806-4.088 1.862-7V6.228h9.758v-.98h-10.78V10.4c-.042 2.688-.574 4.802-1.61 6.314l.77.686zm16.086-.042V7.684c.434-.854.798-1.75 1.092-2.688l-.952-.434a15.555 15.555 0 01-2.996 5.67l.336 1.064a17.469 17.469 0 001.484-1.876v7.938h1.036zm.952-6.79c1.694-1.176 3.094-2.828 4.214-4.97.966 1.904 2.436 3.514 4.396 4.816l.574-.854c-2.128-1.414-3.64-3.052-4.508-4.928h-.91c-1.008 2.086-2.45 3.78-4.326 5.082l.56.854zm6.566 6.706V9.462h-.98v7.812h.98zm-5.67.154c1.344-1.232 2.03-3.164 2.058-5.81V9.504h-.966v2.114c-.028 2.366-.644 4.088-1.848 5.152l.756.658z" fill="#FF4000" fill-rule="nonzero"/><path d="M61 0h61l-3 22H59a2 2 0 01-2-2V4a4 4 0 014-4z" fill="url(#a)" transform="matrix(-1 0 0 1 179 0)"/></g></svg>
+                                        <span class="absolute text-white right-3 ">￥20.4</span>
+                                    </div>
+                                    <span class="text-base">简约高弹力基础橡皮筋</span>
+                                </div>
+                                <div class="w-auto h-auto flex flex-col justify-center items-center gap-y-2">
+                                    <img class="rounded-sm"
+                                        src="assests/images/手机支架.jpg" height="176" width="176"/>
+                                    <div class="flex relative">
+                                        <svg class="" width="122" height="22" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="50%" x2="106.092%" y2="50%" id="a"><stop stop-color="#FF4000" offset="0%"/><stop stop-color="#FF6C3E" offset="100%"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path d="M4 .5c-.966 0-1.841.392-2.475 1.025A3.489 3.489 0 00.5 4h0v16c0 .414.168.79.44 1.06.27.272.646.44 1.06.44h73.5V.5z" stroke="#FF4000" fill="#FFF"/><path d="M11.534 17.302v-.784h8.932v.784h1.022V11.73h-1.022v3.822h-3.948v-5.138h4.284V5.612h-1.008v3.822h-3.276V4.548h-1.036v4.886h-3.276V5.612h-1.008v4.802h4.284v5.138h-3.948V11.73h-1.022v5.572h1.022zm12.754.098c1.176-1.75 1.806-4.088 1.862-7V6.228h9.758v-.98h-10.78V10.4c-.042 2.688-.574 4.802-1.61 6.314l.77.686zm16.086-.042V7.684c.434-.854.798-1.75 1.092-2.688l-.952-.434a15.555 15.555 0 01-2.996 5.67l.336 1.064a17.469 17.469 0 001.484-1.876v7.938h1.036zm.952-6.79c1.694-1.176 3.094-2.828 4.214-4.97.966 1.904 2.436 3.514 4.396 4.816l.574-.854c-2.128-1.414-3.64-3.052-4.508-4.928h-.91c-1.008 2.086-2.45 3.78-4.326 5.082l.56.854zm6.566 6.706V9.462h-.98v7.812h.98zm-5.67.154c1.344-1.232 2.03-3.164 2.058-5.81V9.504h-.966v2.114c-.028 2.366-.644 4.088-1.848 5.152l.756.658z" fill="#FF4000" fill-rule="nonzero"/><path d="M61 0h61l-3 22H59a2 2 0 01-2-2V4a4 4 0 014-4z" fill="url(#a)" transform="matrix(-1 0 0 1 179 0)"/></g></svg>
+                                        <span class="absolute text-white right-3 ">￥6.89</span>
+                                    </div>
+                                    <span class="text-base">铝合金手机支架可折叠</span>
+                                </div>
+                                <div class="w-auto h-auto flex flex-col justify-center items-center gap-y-2">
+                                    <img class="rounded-sm"
+                                        src="assests/images/滚筒粘毛器.webp" height="176" width="176"/>
+                                    <div class="flex relative">
+                                        <svg class="" width="122" height="22" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="50%" x2="106.092%" y2="50%" id="a"><stop stop-color="#FF4000" offset="0%"/><stop stop-color="#FF6C3E" offset="100%"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path d="M4 .5c-.966 0-1.841.392-2.475 1.025A3.489 3.489 0 00.5 4h0v16c0 .414.168.79.44 1.06.27.272.646.44 1.06.44h73.5V.5z" stroke="#FF4000" fill="#FFF"/><path d="M11.534 17.302v-.784h8.932v.784h1.022V11.73h-1.022v3.822h-3.948v-5.138h4.284V5.612h-1.008v3.822h-3.276V4.548h-1.036v4.886h-3.276V5.612h-1.008v4.802h4.284v5.138h-3.948V11.73h-1.022v5.572h1.022zm12.754.098c1.176-1.75 1.806-4.088 1.862-7V6.228h9.758v-.98h-10.78V10.4c-.042 2.688-.574 4.802-1.61 6.314l.77.686zm16.086-.042V7.684c.434-.854.798-1.75 1.092-2.688l-.952-.434a15.555 15.555 0 01-2.996 5.67l.336 1.064a17.469 17.469 0 001.484-1.876v7.938h1.036zm.952-6.79c1.694-1.176 3.094-2.828 4.214-4.97.966 1.904 2.436 3.514 4.396 4.816l.574-.854c-2.128-1.414-3.64-3.052-4.508-4.928h-.91c-1.008 2.086-2.45 3.78-4.326 5.082l.56.854zm6.566 6.706V9.462h-.98v7.812h.98zm-5.67.154c1.344-1.232 2.03-3.164 2.058-5.81V9.504h-.966v2.114c-.028 2.366-.644 4.088-1.848 5.152l.756.658z" fill="#FF4000" fill-rule="nonzero"/><path d="M61 0h61l-3 22H59a2 2 0 01-2-2V4a4 4 0 014-4z" fill="url(#a)" transform="matrix(-1 0 0 1 179 0)"/></g></svg>
+                                        <span class="absolute text-white right-3 ">￥5.23</span>
+                                    </div>
+                                    <span class="text-base">滚筒粘毛器</span>
+                                </div>
+                            </div>
 
-                        <div class="w-full h-[52px] rounded-md text-gray-600 flex flex-col justify-center items-center box-border  bg-white ">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 4.002c2.175.012 3.353.109 4.121.877C21 5.758 21 7.172 21 10v6c0 2.829 0 4.243-.879 5.122C19.243 22 17.828 22 15 22H9c-2.828 0-4.243 0-5.121-.878C3 20.242 3 18.829 3 16v-6c0-2.828 0-4.242.879-5.121c.768-.768 1.946-.865 4.121-.877"/><path stroke-linecap="round" d="M7 14.5h8M7 18h5.5"/><path d="M8 3.5A1.5 1.5 0 0 1 9.5 2h5A1.5 1.5 0 0 1 16 3.5v1A1.5 1.5 0 0 1 14.5 6h-5A1.5 1.5 0 0 1 8 4.5v-1Z"/></g></svg>
-                            <div class="text-xs text-gray-600">卡券中心</div>
                         </div>
+                    </div>
 
-                        <div class="w-full h-[52px] rounded-md text-gray-600 flex flex-col justify-center items-center box-border  bg-white ">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 256 256"><g fill="none" stroke="currentColor" stroke-width="1.5"><path fill="currentColor" d="M216 42H40a14 14 0 0 0-14 14v128a14 14 0 0 0 14 14h59.47a2 2 0 0 1 1.71 1L116 223.2a14 14 0 0 0 24 .05L154.82 199a2 2 0 0 1 1.71-1H216a14 14 0 0 0 14-14V56a14 14 0 0 0-14-14Zm2 142a2 2 0 0 1-2 2h-59.47a14 14 0 0 0-12 6.75L129.72 217a2 2 0 0 1-3.46 0l-14.8-24.22a14.09 14.09 0 0 0-12-6.77H40a2 2 0 0 1-2-2V56a2 2 0 0 1 2-2h176a2 2 0 0 1 2 2Zm-52-80a6 6 0 0 1-6 6H96a6 6 0 0 1 0-12h64a6 6 0 0 1 6 6Zm0 32a6 6 0 0 1-6 6H96a6 6 0 0 1 0-12h64a6 6 0 0 1 6 6Z"/></g></svg>
-                            <div class="text-xs text-gray-600">反馈</div>
-                        </div>
+                    <!--新品直播-->
+                    <div class="w-[592px] h-full  bg-white rounded shadow">
+                        <div class="w-full p-4 ">
+                            <!--第一行字-->
+                            <div class="flex items-center gap-x-2 relative">
+                                <div class="text-xl ">新品直播</div>
+                                <div class="w-[70px] h-[22px] text-sm text-white flex justify-center items-center  rounded bg-gradient-to-r from-[#FF7653] to-[#FF5D91]">
+                                    <img class="text-white w-5 h-5" src="https://img.alicdn.com/imgextra/i2/O1CN01VEPZKi27EsXMYP4UB_!!6000000007766-1-tps-124-124.gif">
+                                    <span class="">直播中</span>
+                                </div>
+                                <span class="ml-2 text-gray-500">足不出户，采一手新品</span>
+                                <span class="absolute right-0 text-gray-500">更多</span>
+                            </div>
 
-                        <div class="w-full h-[52px] rounded-md text-gray-600 flex flex-col justify-center items-center box-border  bg-white ">
-                            <svg width="25" height="19" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1.016 1.017)" stroke="currentColor" fill="none" fill-rule="evenodd"><rect stroke-width="1.2" stroke-linecap="round" width="23" height="17" rx="2"/><path d="m20.888 5.917-.314.466a2.644 2.644 0 0 0-1.62-.56.722.722 0 0 0-.56.221.874.874 0 0 0-.243.596c0 .583.463.933 1.067 1.353.812.574 1.742 1.008 1.78 2.063.039 1.055-.794 1.867-2.052 1.927a2.977 2.977 0 0 1-2.07-.858l.319-.542c.486.387 1.07.598 1.67.602.689 0 1.275-.466 1.245-1.12-.025-.574-.748-.905-1.38-1.316-.804-.546-1.429-1.017-1.429-2.025 0-.933.514-1.67 1.7-1.699a2.82 2.82 0 0 1 1.887.892Zm-7.034 6.066c1.734 0 2.457-1.092 2.457-3.047V5.203h-.85v3.36c.007.5-.029 1-.107 1.493-.144.686-.675 1.12-1.5 1.12-.68.066-1.307-.402-1.5-1.12a7.885 7.885 0 0 1-.107-1.493v-3.37h-.85v3.734c0 1.908.668 3.056 2.457 3.056Zm-5.95-.079h3.362v-.812H8.439V4.983h-.85v6.59a.33.33 0 0 0 .084.242.27.27 0 0 0 .222.089h.009Zm-5.054 0v-2.58a7.494 7.494 0 0 0 2.006-.14c.88-.197 1.53-1.022 1.577-2.007-.04-.977-.673-1.803-1.543-2.012a7.703 7.703 0 0 0-1.912-.14H2v6.879h.85Zm1.976-5.857c.423.193.713.629.753 1.13-.033.515-.332.965-.77 1.157a4.62 4.62 0 0 1-1.959.13V5.88a5.689 5.689 0 0 1 1.976.168Z" stroke-width=".2" fill="currentColor" fill-rule="nonzero"/></g></svg>
-                            <div class="text-xs text-gray-600">会员中心</div>
+                            <!--下面的两个直播画面-->
+                            <div class="w-full h-[228px] flex justify-around mt-2">
+                                <!--第一个直播-->
+                                <div class="w-[360px] h-[228px] rounded-sm  bg-cover bg-no-repeat bg-right bg-[url('/src/assests/images/直播1号.gif')] ">
+                                    <div class="relative ">
+                                        <div class="w-[70px] h-[22px] left-[40px] bottom-[80px] absolute text-sm text-white flex justify-center items-center rounded bg-gradient-to-r from-[#FF7653] to-[#FF5D91]">
+                                            <img class="text-white w-5 h-5" src="https://img.alicdn.com/imgextra/i2/O1CN01VEPZKi27EsXMYP4UB_!!6000000007766-1-tps-124-124.gif">
+                                            <span class="">直播中</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--第二个直播-->
+                                <div class="w-[174px] h-[228px] rounded-sm  bg-cover bg-no-repeat bg-right bg-[url('/src/assests/images/直播2号.webp')] "></div>
+                            </div>
                         </div>
+                    </div>
+
+                </div>
+
+                <!--1688严选、一件代发-->
+                <div class="w-full h-[312px] flex justify-center items-center mb-4 gap-x-4">
+                    <!--1688严选-->
+                    <div class="w-[592px] h-full px-[24px] bg-white rounded shadow">
+
+                    </div>
+
+                    <!--一件代发-->
+                    <div class="w-[592px] h-full px-[24px] bg-white rounded shadow">
+
+                    </div>
+
+                </div>
+
+                <!--为你推荐-->
+                <div class="w-[1200px] h-[850px] flex justify-center items-center mb-4 ">
+                    <div class="w-full h-full bg-white rounded shadow">
+
+                    </div>
+                </div>
+
+                <!--新手指南等-->
+                <div class="w-[1200px] h-[180px] flex justify-center items-center mb-4 ">
+                    <div class="w-full h-full bg-white rounded shadow">
+
+                    </div>
+                </div>
+
+                <!--两个广告图片-->
+                <div class="w-[1200px] h-[90px] flex justify-center items-center mb-4 ">
+                    <div class="w-full h-full bg-white rounded shadow">
 
                     </div>
                 </div>
@@ -330,9 +453,11 @@
 
 
 
+
 </div>
 
 <!--整个页面的右边部分-->
+
 <div class="w-[36px] h-full text-gray-600 flex flex-col justify-center items-center bg-gray-200 right-0 top-0 fixed z-50 antialiased">
     <div class="w-full h-full flex flex-col justify-center items-center ">
         <div class="w-auto h-auto flex flex-col justify-center items-center gap-y-12">
