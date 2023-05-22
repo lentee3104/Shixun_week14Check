@@ -11,7 +11,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"  rel="stylesheet" />
     <script src="index.js"></script>
 </head>
-<body class="w-full h-full flex bg-gray-100">
+<body class="w-full h-full bg-gray-100">
 
 <!--整个页面的左半边-->
 <div class="w-[97.5%] h-full flex flex-col justify-center items-center bg-gray-100 ">
@@ -97,7 +97,7 @@
 
             <!--主体右边的悬停图标-->
             <div class="w-[69px] h-full top-[413px] fixed z-50 ">
-                <div class="w-full flex flex-col items-center gap-y-1 float-right">
+                <div class="w-full flex flex-col items-center gap-y-1 absolute float-right">
                     <div class="w-full h-[52px] rounded-md text-gray-600 flex flex-col justify-center items-center box-border  bg-white ">
                         <svg class="" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 256 256"><path fill="currentColor" d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm0 160H40V56h176v144ZM176 88a48 48 0 0 1-96 0a8 8 0 0 1 16 0a32 32 0 0 0 64 0a8 8 0 0 1 16 0Z"/></svg>
                         <div class="text-xs text-gray-600">快速补货</div>
@@ -326,23 +326,23 @@
 
             </div>
 
-            <div class="w-[1385px] h-auto flex flex-col justify-center items-center">
+            <div class="h-auto flex flex-col justify-center">
                 <!--爆品伙拼、新品直播-->
                 <div class="w-full h-[312px] flex justify-center items-center mt-4 mb-4 gap-x-4">
                     <!--爆品伙拼-->
-                    <div class="w-[592px] h-full bg-white rounded shadow">
+                    <div class="w-[592px] h-full  bg-white rounded shadow">
                         <div class="w-full px-4 "> <!--这个地方包括了上面的字和下面的三列商品-->
                             <!--第一行字-->
-                            <div class="w-auto h-[60px] flex items-center gap-x-2 relative">
-                                <div class="text-xl ">爆品伙拼</div>
-                                <div class="text-sm text-[#FF4000] flex justify-center items-center">
+                            <div class="w-full h-14 flex items-center text-sm relative">
+                                <div class="text-xl mr-2">爆品伙拼</div>
+                                <div class="text-sm text-[#FF4000] flex justify-center items-center mr-2">
                                     <span class="bg-[#FFE3D9] rounded">03</span>
                                     <span class="">:</span>
                                     <span class="bg-[#FFE3D9] rounded">10</span>
                                     <span class="">:</span>
                                     <span class="bg-[#FFE3D9] rounded">28</span>
                                 </div>
-                                <span class="ml-2 text-gray-500">全网爆品，出厂价包邮</span>
+                                <span class="ml-2 text-gray-500 mr-2">全网爆品，出厂价包邮</span>
                                 <span class="absolute right-0 text-gray-500">更多</span>
                             </div>
                             <!--下面的三列图-->
@@ -350,7 +350,7 @@
                                 <div class="w-auto h-auto flex flex-col justify-center items-center gap-y-2">
                                     <img class="rounded-sm" src="assests/images/简约皮筋.jpg" height="176"
                                                                 width="176"/>
-                                    <div class="flex relative">
+                                    <div class="flex relative mt-2">
                                         <svg class="" width="122" height="22" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="50%" x2="106.092%" y2="50%" id="a"><stop stop-color="#FF4000" offset="0%"/><stop stop-color="#FF6C3E" offset="100%"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path d="M4 .5c-.966 0-1.841.392-2.475 1.025A3.489 3.489 0 00.5 4h0v16c0 .414.168.79.44 1.06.27.272.646.44 1.06.44h73.5V.5z" stroke="#FF4000" fill="#FFF"/><path d="M11.534 17.302v-.784h8.932v.784h1.022V11.73h-1.022v3.822h-3.948v-5.138h4.284V5.612h-1.008v3.822h-3.276V4.548h-1.036v4.886h-3.276V5.612h-1.008v4.802h4.284v5.138h-3.948V11.73h-1.022v5.572h1.022zm12.754.098c1.176-1.75 1.806-4.088 1.862-7V6.228h9.758v-.98h-10.78V10.4c-.042 2.688-.574 4.802-1.61 6.314l.77.686zm16.086-.042V7.684c.434-.854.798-1.75 1.092-2.688l-.952-.434a15.555 15.555 0 01-2.996 5.67l.336 1.064a17.469 17.469 0 001.484-1.876v7.938h1.036zm.952-6.79c1.694-1.176 3.094-2.828 4.214-4.97.966 1.904 2.436 3.514 4.396 4.816l.574-.854c-2.128-1.414-3.64-3.052-4.508-4.928h-.91c-1.008 2.086-2.45 3.78-4.326 5.082l.56.854zm6.566 6.706V9.462h-.98v7.812h.98zm-5.67.154c1.344-1.232 2.03-3.164 2.058-5.81V9.504h-.966v2.114c-.028 2.366-.644 4.088-1.848 5.152l.756.658z" fill="#FF4000" fill-rule="nonzero"/><path d="M61 0h61l-3 22H59a2 2 0 01-2-2V4a4 4 0 014-4z" fill="url(#a)" transform="matrix(-1 0 0 1 179 0)"/></g></svg>
                                         <span class="absolute text-white right-3 ">￥20.4</span>
                                     </div>
@@ -359,7 +359,7 @@
                                 <div class="w-auto h-auto flex flex-col justify-center items-center gap-y-2">
                                     <img class="rounded-sm"
                                         src="assests/images/手机支架.jpg" height="176" width="176"/>
-                                    <div class="flex relative">
+                                    <div class="flex relative mt-2">
                                         <svg class="" width="122" height="22" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="50%" x2="106.092%" y2="50%" id="a"><stop stop-color="#FF4000" offset="0%"/><stop stop-color="#FF6C3E" offset="100%"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path d="M4 .5c-.966 0-1.841.392-2.475 1.025A3.489 3.489 0 00.5 4h0v16c0 .414.168.79.44 1.06.27.272.646.44 1.06.44h73.5V.5z" stroke="#FF4000" fill="#FFF"/><path d="M11.534 17.302v-.784h8.932v.784h1.022V11.73h-1.022v3.822h-3.948v-5.138h4.284V5.612h-1.008v3.822h-3.276V4.548h-1.036v4.886h-3.276V5.612h-1.008v4.802h4.284v5.138h-3.948V11.73h-1.022v5.572h1.022zm12.754.098c1.176-1.75 1.806-4.088 1.862-7V6.228h9.758v-.98h-10.78V10.4c-.042 2.688-.574 4.802-1.61 6.314l.77.686zm16.086-.042V7.684c.434-.854.798-1.75 1.092-2.688l-.952-.434a15.555 15.555 0 01-2.996 5.67l.336 1.064a17.469 17.469 0 001.484-1.876v7.938h1.036zm.952-6.79c1.694-1.176 3.094-2.828 4.214-4.97.966 1.904 2.436 3.514 4.396 4.816l.574-.854c-2.128-1.414-3.64-3.052-4.508-4.928h-.91c-1.008 2.086-2.45 3.78-4.326 5.082l.56.854zm6.566 6.706V9.462h-.98v7.812h.98zm-5.67.154c1.344-1.232 2.03-3.164 2.058-5.81V9.504h-.966v2.114c-.028 2.366-.644 4.088-1.848 5.152l.756.658z" fill="#FF4000" fill-rule="nonzero"/><path d="M61 0h61l-3 22H59a2 2 0 01-2-2V4a4 4 0 014-4z" fill="url(#a)" transform="matrix(-1 0 0 1 179 0)"/></g></svg>
                                         <span class="absolute text-white right-3 ">￥6.89</span>
                                     </div>
@@ -368,44 +368,56 @@
                                 <div class="w-auto h-auto flex flex-col justify-center items-center gap-y-2">
                                     <img class="rounded-sm"
                                         src="assests/images/滚筒粘毛器.webp" height="176" width="176"/>
-                                    <div class="flex relative">
+                                    <div class="flex relative mt-2">
                                         <svg class="" width="122" height="22" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="50%" x2="106.092%" y2="50%" id="a"><stop stop-color="#FF4000" offset="0%"/><stop stop-color="#FF6C3E" offset="100%"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path d="M4 .5c-.966 0-1.841.392-2.475 1.025A3.489 3.489 0 00.5 4h0v16c0 .414.168.79.44 1.06.27.272.646.44 1.06.44h73.5V.5z" stroke="#FF4000" fill="#FFF"/><path d="M11.534 17.302v-.784h8.932v.784h1.022V11.73h-1.022v3.822h-3.948v-5.138h4.284V5.612h-1.008v3.822h-3.276V4.548h-1.036v4.886h-3.276V5.612h-1.008v4.802h4.284v5.138h-3.948V11.73h-1.022v5.572h1.022zm12.754.098c1.176-1.75 1.806-4.088 1.862-7V6.228h9.758v-.98h-10.78V10.4c-.042 2.688-.574 4.802-1.61 6.314l.77.686zm16.086-.042V7.684c.434-.854.798-1.75 1.092-2.688l-.952-.434a15.555 15.555 0 01-2.996 5.67l.336 1.064a17.469 17.469 0 001.484-1.876v7.938h1.036zm.952-6.79c1.694-1.176 3.094-2.828 4.214-4.97.966 1.904 2.436 3.514 4.396 4.816l.574-.854c-2.128-1.414-3.64-3.052-4.508-4.928h-.91c-1.008 2.086-2.45 3.78-4.326 5.082l.56.854zm6.566 6.706V9.462h-.98v7.812h.98zm-5.67.154c1.344-1.232 2.03-3.164 2.058-5.81V9.504h-.966v2.114c-.028 2.366-.644 4.088-1.848 5.152l.756.658z" fill="#FF4000" fill-rule="nonzero"/><path d="M61 0h61l-3 22H59a2 2 0 01-2-2V4a4 4 0 014-4z" fill="url(#a)" transform="matrix(-1 0 0 1 179 0)"/></g></svg>
                                         <span class="absolute text-white right-3 ">￥5.23</span>
                                     </div>
                                     <span class="text-base">滚筒粘毛器</span>
                                 </div>
                             </div>
-
                         </div>
                     </div>
 
                     <!--新品直播-->
                     <div class="w-[592px] h-full  bg-white rounded shadow">
-                        <div class="w-full p-4 ">
+                        <div class="w-full h-[60px] px-4 relative">
                             <!--第一行字-->
-                            <div class="flex items-center gap-x-2 relative">
-                                <div class="text-xl ">新品直播</div>
+                            <div class="w-full h-14 flex items-center text-sm relative">
+                                <div class="text-xl mr-2">新品直播</div>
                                 <div class="w-[70px] h-[22px] text-sm text-white flex justify-center items-center  rounded bg-gradient-to-r from-[#FF7653] to-[#FF5D91]">
                                     <img class="text-white w-5 h-5" src="https://img.alicdn.com/imgextra/i2/O1CN01VEPZKi27EsXMYP4UB_!!6000000007766-1-tps-124-124.gif">
                                     <span class="">直播中</span>
                                 </div>
-                                <span class="ml-2 text-gray-500">足不出户，采一手新品</span>
+                                <span class="ml-2 text-gray-500 mr-2">全网爆品，出厂价包邮</span>
                                 <span class="absolute right-0 text-gray-500">更多</span>
                             </div>
 
                             <!--下面的两个直播画面-->
-                            <div class="w-full h-[228px] flex justify-around mt-2">
+                            <div class="w-full h-[228px] flex justify-around relative">
                                 <!--第一个直播-->
-                                <div class="w-[360px] h-[228px] rounded-sm  bg-cover bg-no-repeat bg-right bg-[url('/src/assests/images/直播1号.gif')] ">
-                                    <div class="relative ">
-                                        <div class="w-[70px] h-[22px] left-[40px] bottom-[80px] absolute text-sm text-white flex justify-center items-center rounded bg-gradient-to-r from-[#FF7653] to-[#FF5D91]">
-                                            <img class="text-white w-5 h-5" src="https://img.alicdn.com/imgextra/i2/O1CN01VEPZKi27EsXMYP4UB_!!6000000007766-1-tps-124-124.gif">
-                                            <span class="">直播中</span>
+                                <div class="w-[360px] h-[228px] rounded-sm bg-cover bg-no-repeat bg-right bg-[url('/src/assests/images/直播1号.gif')] ">
+                                    <div class="absolute left-[20px] bottom-[15px] ">
+                                        <div class="w-[79px] h-[22px]  text-sm text-white flex justify-center items-center  rounded bg-gradient-to-r from-[#FF7653] to-[#FF5D91]">
+                                            <img class="text-white w-5 h-5"
+                                             src="https://img.alicdn.com/imgextra/i2/O1CN01VEPZKi27EsXMYP4UB_!!6000000007766-1-tps-124-124.gif">
+                                            <span class="text-sm">厂货直播</span>
                                         </div>
+                                        <span class="text-white text-base">源头新品每日上新</span>
                                     </div>
+
                                 </div>
                                 <!--第二个直播-->
-                                <div class="w-[174px] h-[228px] rounded-sm  bg-cover bg-no-repeat bg-right bg-[url('/src/assests/images/直播2号.webp')] "></div>
+                                <div class="relative w-[174px] h-[228px] rounded-sm  bg-cover bg-no-repeat bg-right bg-[url('/src/assests/images/直播2号.webp')] ">
+                                    <div class="absolute left-[15px] bottom-[15px] ">
+                                        <div class="w-[79px] h-[22px]  text-sm text-white flex justify-center items-center  rounded bg-gradient-to-r from-[#FF7653] to-[#FF5D91]">
+                                            <img class="text-white w-5 h-5"
+                                                 src="https://img.alicdn.com/imgextra/i2/O1CN01VEPZKi27EsXMYP4UB_!!6000000007766-1-tps-124-124.gif">
+                                            <span class="text-sm">新品直播</span>
+                                        </div>
+                                        <span class="text-white text-base">每日上新1000+</span>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -413,37 +425,171 @@
                 </div>
 
                 <!--1688严选、一件代发-->
-                <div class="w-full h-[312px] flex justify-center items-center mb-4 gap-x-4">
+                <div class="w-full h-[312px] flex justify-center items-center  mb-4 gap-x-4">
                     <!--1688严选-->
-                    <div class="w-[592px] h-full px-[24px] bg-white rounded shadow">
+                    <div class="w-[592px] h-full  bg-white rounded shadow">
+                        <div class="w-full px-4 "> <!--这个地方包括了上面的字和下面的三列商品-->
+                            <!--第一行字-->
+                            <div class="w-full h-14 flex items-center text-sm relative">
+                                <div class="text-xl mr-2">1688严选</div>
+                                <span class="ml-2 text-gray-500 mr-2">品牌品质 工厂价格</span>
+                                <span class="absolute right-0 text-gray-500">更多</span>
+                            </div>
+                            <!--下面的三列图-->
+                            <div class="w-full h-[241px] flex text-sm justify-around py-2">
+                                <div class="w-auto h-auto flex flex-col justify-center gap-y-2 relative">
+                                    <img class="rounded-sm"
+                                        src="assests/images/小黄鸭保温饭盒.webp" height="176" width="176"/>
+                                    <div class="flex items-center left-0">
+                                        <img class="left-0" src="assests/images/1688严选小图标.webp"
+                                                                         height="28" width="48"/>
+                                        <span class=" ml-2">小黄鸭饭盒</span>
+                                    </div>
+                                    <div class="flex text-sm items-center ">
+                                        <span class="text-[#FF4000] ">￥</span>
+                                        <span class="text-xl text-[#FF4000] ">7</span>
+                                        <span class="text-gray-500 ml-2">月销579件</span>
+                                    </div>
+                                </div>
 
+                                <div class="w-auto h-auto flex flex-col justify-center gap-y-2 relative">
+                                    <img class="rounded-sm"
+                                        src="assests/images/不锈钢叉子.webp" height="176" width="176"/>
+                                    <div class="flex items-center left-0">
+                                        <img class="left-0" src="assests/images/1688严选小图标.webp"
+                                             height="28" width="48"/>
+                                        <span class=" ml-2">304不锈钢叉勺</span>
+                                    </div>
+                                    <div class="flex text-sm items-center ">
+                                        <span class="text-[#FF4000] ">￥</span>
+                                        <span class="text-xl text-[#FF4000] ">1.2</span>
+                                        <span class="text-gray-500 ml-2">月销1.3万支</span>
+                                    </div>
+                                </div>
+
+                                <div class="w-auto h-auto flex flex-col justify-center gap-y-2 relative">
+                                    <img class="rounded-sm"
+                                        src="assests/images/北欧圣诞节餐布.webp" height="176" width="176"/>
+                                    <div class="flex items-center left-0">
+                                        <img class="left-0" src="assests/images/1688严选小图标.webp"
+                                             height="28" width="48"/>
+                                        <span class=" ml-2">北欧圣诞节餐布</span>
+                                    </div>
+                                    <div class="flex text-sm items-center ">
+                                        <span class="text-[#FF4000] ">￥</span>
+                                        <span class="text-xl text-[#FF4000] ">15</span>
+                                        <span class="text-gray-500 ml-2">月销381条</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <!--一件代发-->
-                    <div class="w-[592px] h-full px-[24px] bg-white rounded shadow">
+                    <div class="w-[592px] h-full  bg-white rounded shadow">
+                        <div class="w-full px-4 "> <!--这个地方包括了上面的字和下面的三列商品-->
+                            <!--第一行字-->
+                            <div class="w-full h-14 flex items-center text-sm relative">
+                                <div class="text-xl mr-2">一件代发</div>
+                                <span class="ml-2 text-gray-500 mr-2">太好卖了吧</span>
+                                <span class="absolute right-0 text-gray-500">更多</span>
+                            </div>
+                            <!--下面的三列图-->
+                            <div class="w-full h-[241px] flex text-sm justify-around py-2">
+                                <div class="w-auto h-auto flex flex-col justify-center gap-y-2 relative">
+                                    <img class="rounded-sm"
+                                        src="assests/images/遮阳帽男.webp" height="176" width="176"/>
+                                    <div class="flex justify-center items-center left-0">
+                                        <span class="">春夏新款遮阳帽男</span>
+                                    </div>
+                                    <div class="flex text-sm justify-center items-center ">
+                                        <span class="text-[#FF4000] ">￥</span>
+                                        <span class="text-xl text-[#FF4000] ">26.88</span>
+                                        <span class="text-gray-500 ml-2">月销7551瓶</span>
+                                    </div>
+                                </div>
 
+                                <div class="w-auto h-auto flex flex-col justify-center gap-y-2 relative">
+                                    <img class="rounded-sm"
+                                        src="assests/images/海贼王雨伞.jpg" height="176" width="176"/>
+                                    <div class="flex justify-center items-center left-0">
+                                        <span class="">海贼王雨伞晴雨两用</span>
+                                    </div>
+                                    <div class="flex text-sm justify-center items-center ">
+                                        <span class="text-[#FF4000] ">￥</span>
+                                        <span class="text-xl text-[#FF4000] ">1.2</span>
+                                        <span class="text-gray-500 ml-2">月销1.3万支</span>
+                                    </div>
+                                </div>
+
+                                <div class="w-auto h-auto flex flex-col justify-center gap-y-2 relative">
+                                    <img class="rounded-sm"
+                                        src="assests/images/便携水杯.jpg" height="176" width="176"/>
+                                    <div class="flex justify-center items-center left-0">
+                                        <span class="">便携旅行茶杯茶具</span>
+                                    </div>
+                                    <div class="flex text-sm justify-center items-center ">
+                                        <span class="text-[#FF4000] ">￥</span>
+                                        <span class="text-xl text-[#FF4000] ">15</span>
+                                        <span class="text-gray-500 ml-2">月销381条</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
 
-                <!--为你推荐-->
-                <div class="w-[1200px] h-[850px] flex justify-center items-center mb-4 ">
-                    <div class="w-full h-full bg-white rounded shadow">
 
+                <div class="flex justify-center items-center text-xs">
+
+                    <!--为你推荐-->
+                    <div class="w-[1200px] h-[850px] flex justify-center items-center mb-4 ">
+                        <div class="w-full h-full bg-white rounded-md shadow px-4">
+                            <!--第一行字-->
+                            <div class="w-full h-[70px] flex items-center text-sm relative">
+                                <div class="text-xl mr-2">为你推荐</div>
+                                <span class="ml-2 text-gray-500 mr-2">根据您的浏览，实时为您推荐爆款产品</span>
+                            </div>
+                            <!--第二行字（热门推荐等）-->
+                            <div class="px-4 w-[98%] h-[30px] flex items-center relative gap-x-8 text-[15px]">
+                                <span class="text[#FF4000]">热门推荐</span>
+                                <span class="text[#FF4000]">内衣</span>
+                                <span class="text[#FF4000]">服饰配件</span>
+                                <span class="text[#FF4000]">童装</span>
+                                <span class="text[#FF4000]">玩具</span>
+                                <span class="text[#FF4000]">女装</span>
+                                <span class="text[#FF4000]">食品酒水</span>
+                                <span class="text[#FF4000]">宠物园艺</span>
+                                <span class="text[#FF4000]">汽车用品</span>
+                                <span class="text[#FF4000]">灯饰照明</span>
+                                <span class="text[#FF4000]">男装</span>
+                                <span class="text[#FF4000]">电子仪表</span>
+                                <div class="absolute text-gray-600 flex right-0 items-center">
+                                    <span class="">展开</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M8.12 9.29L12 13.17l3.88-3.88a.996.996 0 1 1 1.41 1.41l-4.59 4.59a.996.996 0 0 1-1.41 0L6.7 10.7a.996.996 0 0 1 0-1.41c.39-.38 1.03-.39 1.42 0z"/></svg>
+                                </div>
+                            </div>
+                            <!--底下所有的商品-->
+
+                        </div>
                     </div>
                 </div>
 
                 <!--新手指南等-->
-                <div class="w-[1200px] h-[180px] flex justify-center items-center mb-4 ">
-                    <div class="w-full h-full bg-white rounded shadow">
+                <div class="flex justify-center items-center">
+                    <div class="w-[1200px] h-[180px] flex justify-center items-center mb-4 ">
+                        <div class="w-full h-full bg-white rounded shadow">
 
+                        </div>
                     </div>
                 </div>
 
                 <!--两个广告图片-->
-                <div class="w-[1200px] h-[90px] flex justify-center items-center mb-4 ">
-                    <div class="w-full h-full bg-white rounded shadow">
+                <div class="flex justify-center items-center">
+                    <div class="w-[1200px] h-[90px] flex justify-center items-center mb-4 ">
+                        <div class="w-full h-full bg-white rounded shadow">
 
+                        </div>
                     </div>
                 </div>
 
