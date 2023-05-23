@@ -908,16 +908,16 @@ video {
   height: 48px;
 }
 
+.h-\[50px\] {
+  height: 50px;
+}
+
 .h-\[52px\] {
   height: 52px;
 }
 
 .h-\[60px\] {
   height: 60px;
-}
-
-.h-\[65px\] {
-  height: 65px;
 }
 
 .h-\[75px\] {
@@ -934,14 +934,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[55px\] {
-  height: 55px;
-}
-
-.h-\[50px\] {
-  height: 50px;
 }
 
 .w-1\/2 {
@@ -1202,14 +1194,6 @@ video {
   row-gap: 0.5rem;
 }
 
-.gap-y-4 {
-  row-gap: 1rem;
-}
-
-.gap-y-6 {
-  row-gap: 1.5rem;
-}
-
 .gap-y-5 {
   row-gap: 1.25rem;
 }
@@ -1396,6 +1380,14 @@ video {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'assests\/images\/\76F4\64AD 1\53F7\.gif\'\)\] {
+  background-image: url('assests/images/直播1号.gif');
+}
+
+.bg-\[url\(\'assests\/images\/\76F4\64AD 2\53F7\.webp\'\)\] {
+  background-image: url('assests/images/直播2号.webp');
 }
 
 .from-\[\#FF7653\] {
